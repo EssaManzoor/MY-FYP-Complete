@@ -1,0 +1,1062 @@
+[
+    {
+        "source_file": "fyp_proposal_1.pdf",
+        "page": 1,
+        "text": "FINAL YEAR PROJECT PROPOSAL\nAUTONOMOUS DRONE NAVIGATION SYSTEM FOR\nPRECISION AGRICULTURE USING EDGE AI\nINU\nSubmitted By:\nAhmad Khan (21045)\nZainab Bibi (21088)\nSession 2022-2026\nSupervised By:\nDr. Tariq Mahmood\nA project proposal submitted to The IQRA National University, Peshawar in partial fulfillment of the requirements for\nthe degree of \nBACHELOR OF SCIENCE (BS) IN COMPUTER SCIENCE\nSCHOOL OF COMPUTER SCIENCE\nIQRA NATIONAL UNIVERSITY, PESHAWAR-PAKISTAN\nDecember, 2025\n1"
+    },
+    {
+        "source_file": "fyp_proposal_1.pdf",
+        "page": 2,
+        "text": "Table of Contents\n1. Introduction & Problem Statement 1\n2. Objectives of Project 1\n3. Methodology & System Architecture 2\n4. Proposed Time Schedule (Gantt Chart) 3\n5. Budget Description & Technical Stack 3\n6. Undertaking & Signatures 4\nList of Acronyms\nAcronym Description\nINU IQRA National University\nAI Artificial Intelligence\nNLP Natural Language Processing\nLLM Large Language Model\nAPI Application Programming Interface\nUI / UX User Interface / User Experience\nBLE / IoT Bluetooth Low Energy / In"
+    },
+    {
+        "source_file": "fyp_proposal_1.pdf",
+        "page": 2,
+        "text": "ternet of Things\n1. Introduction & Problem Statement\nThe project titled \"Autonomous Drone Navigation System for Precision Agriculture using Edge AI\"\naddresses  critical  architectural  paradigms  within  the  modern  computer  science  landscape.  As\ninformation engineering systems shift toward distributed, agile environments, specialized automated\nmonitoring  and  optimization  models  become  absolutely  paramount  to  unlock  next-generation\nperformance. \nProblem Statement: Traditional crop m"
+    },
+    {
+        "source_file": "fyp_proposal_1.pdf",
+        "page": 2,
+        "text": "onitoring techniques are labor-intensive, slow, and fail to offer\nearly-stage disease detection across vast agrarian landscapes. Satellite imagery lacks resolution, and\nheavy cloud cover limits utility. Deploying standard drones relies heavily on constant high-bandwidth\ncloud  offloading,  making  real-time,  low-latency  localized  decision-making  unfeasible  in  remote  rural\n2"
+    },
+    {
+        "source_file": "fyp_proposal_1.pdf",
+        "page": 3,
+        "text": "farmlands lacking continuous network infrastructures. Without an automated, reliable system structure to\nstreamline these processes, operational risks escalate dramatically. This system solves this missing gap\nby developing an optimized computational pipeline that acts as a robust mechanism for resolving these\ncomplex challenges. \n2. Objectives of Project\nThe primary structural milestones mapped for this software development cycle are:\nDevelop an on-device lightweight deep learning paradigm (YOL"
+    },
+    {
+        "source_file": "fyp_proposal_1.pdf",
+        "page": 3,
+        "text": "O-v8 Nano) capable of parsing multi-\nspectral crop feeds at 30 FPS.\nDesign an off-grid real-time localized dynamic obstacle avoidance flight algorithm tailored for canopy-\nlevel crop surveying.\nConstruct an end-to-end telemetry dashboard with automated anomaly alerting mechanics detailing\ncoordinates of dynamic stress sectors.\n3. Methodology & System Architecture\nThe system adheres to a structured, modular pipeline layout designed using a decoupled Client-Server\nmodel. This ensures that heavy ba"
+    },
+    {
+        "source_file": "fyp_proposal_1.pdf",
+        "page": 3,
+        "text": "ckend model inferencing jobs do not impair the frontend interface\napplication execution parameters. \nCore Modules:\nAuthentication & Profile Integration Module: Handles user record enrollment and data secure\ncaching sequences smoothly.\nCore Execution and Inference Pipeline: Manages real-time data ingestion, transformation\noperations, and algorithmic processing nodes.\nAnalytics & Reporting Layout Engine: Aggregates calculation products, compiling structured\nsystem reports safely.\n[System Architect"
+    },
+    {
+        "source_file": "fyp_proposal_1.pdf",
+        "page": 3,
+        "text": "ure Design: React Native Client Interface \u2190\u2192 Secure Gateway APIs \u2190\u2192 Python/\nNode Compute Processing Engines \u2190\u2192 Scalable Vector/Relational Databases] \n\u2022 \n\u2022 \n\u2022 \n1. \n2. \n3. \n3"
+    },
+    {
+        "source_file": "fyp_proposal_1.pdf",
+        "page": 4,
+        "text": "4. Proposed Time Schedule\nPhase Activity Description Duration (2025-2026)\nPhase 1 Literature Survey & Component Finalization December\nPhase 2 Architecture Modeling & Engineering Checks January - February\nPhase 3 Core Engine Development & Coding Cycle March - April\nPhase 4 System Verification Testing & Report Synthesis May - June\nVisual Timeline (Gantt Chart Representation)\nActivity Dec Jan Feb Mar Apr May\nLiterature Gathering \u2588\u2588\nScheme Design Modeling \u2588\u2588 \u2588\u2588\nSystem Core Coding \u2588\u2588 \u2588\u2588\nVerification "
+    },
+    {
+        "source_file": "fyp_proposal_1.pdf",
+        "page": 4,
+        "text": "& Writing \u2588\u2588\n5. Budget Description & Technical Stack\nThe project leverages open-source libraries and public cloud deployment tiers, achieving maximum\nsoftware efficiency with minimal capital expenditures. All computation and model runs are hosted on\nstandard developer hardware platforms already in position. \nProposed Technical Core Stack: React Native (UI), Flask Backend, Edge AI Node (Nvidia Jetson),\nPyTorch, OpenCV, ROS (Robot Operating System).\n6. Undertaking & Project Declarations\nWe hereby "
+    },
+    {
+        "source_file": "fyp_proposal_1.pdf",
+        "page": 4,
+        "text": "declare that this technical development proposal is our genuine work executed under supervision\nat IQRA National University. No portion of this engineering research layout has been submitted previously for\nacademic credit at any alternative educational board. \nStudent 1 Signature Student 2 Signature\n4"
+    },
+    {
+        "source_file": "fyp_proposal_1.pdf",
+        "page": 5,
+        "text": "7. Institutional Review Panel Logs\nSupervisor Evaluation Section:\nSupervisor Signature Date: ____/____/______\nFYP Department Coordinator Workspace:\nCoordinator SignatureStatus: APPROVED / HOLD\n5"
+    },
+    {
+        "source_file": "fyp_proposal_10.pdf",
+        "page": 1,
+        "text": "FINAL YEAR PROJECT PROPOSAL\nAR-BASED INTERACTIVE SURGICAL TRAINING\nSYSTEM WITH REAL-TIME HAPTIC EMULATION\nINU\nSubmitted By:\nSaad Khan (21331)\nUmair Javed (21345)\nSession 2022-2026\nSupervised By:\nProf. Dr. M. Ali\nA project proposal submitted to The IQRA National University, Peshawar in partial fulfillment of the requirements for\nthe degree of \nBACHELOR OF SCIENCE (BS) IN COMPUTER SCIENCE\nSCHOOL OF COMPUTER SCIENCE\nIQRA NATIONAL UNIVERSITY, PESHAWAR-PAKISTAN\nDecember, 2025\n1"
+    },
+    {
+        "source_file": "fyp_proposal_10.pdf",
+        "page": 2,
+        "text": "Table of Contents\n1. Introduction & Problem Statement 1\n2. Objectives of Project 1\n3. Methodology & System Architecture 2\n4. Proposed Time Schedule (Gantt Chart) 3\n5. Budget Description & Technical Stack 3\n6. Undertaking & Signatures 4\nList of Acronyms\nAcronym Description\nINU IQRA National University\nAI Artificial Intelligence\nNLP Natural Language Processing\nLLM Large Language Model\nAPI Application Programming Interface\nUI / UX User Interface / User Experience\nBLE / IoT Bluetooth Low Energy / In"
+    },
+    {
+        "source_file": "fyp_proposal_10.pdf",
+        "page": 2,
+        "text": "ternet of Things\n1. Introduction & Problem Statement\nThe  project  titled  \"AR-Based  Interactive  Surgical  Training  System  with  Real-Time  Haptic\nEmulation\" addresses critical architectural paradigms within the modern computer science landscape.\nAs information engineering systems shift toward distributed, agile environments, specialized automated\nmonitoring  and  optimization  models  become  absolutely  paramount  to  unlock  next-generation\nperformance. \nProblem Statement: Medical student"
+    },
+    {
+        "source_file": "fyp_proposal_10.pdf",
+        "page": 2,
+        "text": "s encounter extreme limitations when trying to obtain physical\naccess to cadavers or real operating room practice windows. Traditional text summaries and video\nmodules fail to cultivate muscle memory or convey structural physical spatial feedback necessary for\nmanaging high-risk surgical errors. Without an automated, reliable system structure to streamline these\n2"
+    },
+    {
+        "source_file": "fyp_proposal_10.pdf",
+        "page": 3,
+        "text": "processes, operational risks escalate dramatically. This system solves this missing gap by developing an\noptimized  computational  pipeline  that  acts  as  a  robust  mechanism  for  resolving  these  complex\nchallenges. \n2. Objectives of Project\nThe primary structural milestones mapped for this software development cycle are:\nConstruct highly accurate, interactive 3D anatomical organ models exhibiting dynamic real-time\nphysical deformation responses.\nImplement an Augmented Reality overlay syst"
+    },
+    {
+        "source_file": "fyp_proposal_10.pdf",
+        "page": 3,
+        "text": "em mapping virtual spatial assets onto target\nboundaries accurately via consumer mobile cameras.\nIntegrate BLE haptic actuator feedback control systems communicating precise resistance metrics\ndirectly to user devices.\n3. Methodology & System Architecture\nThe system adheres to a structured, modular pipeline layout designed using a decoupled Client-Server\nmodel. This ensures that heavy backend model inferencing jobs do not impair the frontend interface\napplication execution parameters. \nCore Modu"
+    },
+    {
+        "source_file": "fyp_proposal_10.pdf",
+        "page": 3,
+        "text": "les:\nAuthentication & Profile Integration Module: Handles user record enrollment and data secure\ncaching sequences smoothly.\nCore Execution and Inference Pipeline: Manages real-time data ingestion, transformation\noperations, and algorithmic processing nodes.\nAnalytics & Reporting Layout Engine: Aggregates calculation products, compiling structured\nsystem reports safely.\n[System Architecture Design: React Native Client Interface \u2190\u2192 Secure Gateway APIs \u2190\u2192 Python/\nNode Compute Processing Engines \u2190\u2192"
+    },
+    {
+        "source_file": "fyp_proposal_10.pdf",
+        "page": 3,
+        "text": " Scalable Vector/Relational Databases] \n\u2022 \n\u2022 \n\u2022 \n1. \n2. \n3. \n3"
+    },
+    {
+        "source_file": "fyp_proposal_10.pdf",
+        "page": 4,
+        "text": "4. Proposed Time Schedule\nPhase Activity Description Duration (2025-2026)\nPhase 1 Literature Survey & Component Finalization December\nPhase 2 Architecture Modeling & Engineering Checks January - February\nPhase 3 Core Engine Development & Coding Cycle March - April\nPhase 4 System Verification Testing & Report Synthesis May - June\nVisual Timeline (Gantt Chart Representation)\nActivity Dec Jan Feb Mar Apr May\nLiterature Gathering \u2588\u2588\nScheme Design Modeling \u2588\u2588 \u2588\u2588\nSystem Core Coding \u2588\u2588 \u2588\u2588\nVerification "
+    },
+    {
+        "source_file": "fyp_proposal_10.pdf",
+        "page": 4,
+        "text": "& Writing \u2588\u2588\n5. Budget Description & Technical Stack\nThe project leverages open-source libraries and public cloud deployment tiers, achieving maximum\nsoftware efficiency with minimal capital expenditures. All computation and model runs are hosted on\nstandard developer hardware platforms already in position. \nProposed Technical Core Stack: React Native Bridge, Unity 3D Engine, ARCore Framework, C#\nScripting, BLE Serial Protocols, Arduino Micro-Firmware.\n6. Undertaking & Project Declarations\nWe he"
+    },
+    {
+        "source_file": "fyp_proposal_10.pdf",
+        "page": 4,
+        "text": "reby declare that this technical development proposal is our genuine work executed under supervision\nat IQRA National University. No portion of this engineering research layout has been submitted previously for\nacademic credit at any alternative educational board. \nStudent 1 Signature Student 2 Signature\n4"
+    },
+    {
+        "source_file": "fyp_proposal_10.pdf",
+        "page": 5,
+        "text": "7. Institutional Review Panel Logs\nSupervisor Evaluation Section:\nSupervisor Signature Date: ____/____/______\nFYP Department Coordinator Workspace:\nCoordinator SignatureStatus: APPROVED / HOLD\n5"
+    },
+    {
+        "source_file": "fyp_proposal_11.pdf",
+        "page": 1,
+        "text": "FINAL YEAR PROJECT PROPOSAL\nDEEPFAKE VIDEO DETECTION AND CONTENT\nVERIFICATION SYSTEM FOR MEDIA FORENSIC\nANALYSIS\nINU\nSubmitted By:\nTayyab Shah (20771)\nZeeshan Ali (20779)\nSession 2022-2026\nSupervised By:\nDr. Mubashir Zainoor\nA project proposal submitted to The IQRA National University, Peshawar in partial fulfillment of the requirements for\nthe degree of \nBACHELOR OF SCIENCE (BS) IN COMPUTER SCIENCE\nSCHOOL OF COMPUTER SCIENCE\nIQRA NATIONAL UNIVERSITY, PESHAWAR-PAKISTAN\nDecember, 2025\n1"
+    },
+    {
+        "source_file": "fyp_proposal_11.pdf",
+        "page": 2,
+        "text": "Table of Contents\n1. Introduction & Problem Statement 1\n2. Objectives of Project 1\n3. Methodology & System Architecture 2\n4. Proposed Time Schedule (Gantt Chart) 3\n5. Budget Description & Technical Stack 3\n6. Undertaking & Signatures 4\nList of Acronyms\nAcronym Description\nINU IQRA National University\nAI Artificial Intelligence\nNLP Natural Language Processing\nLLM Large Language Model\nAPI Application Programming Interface\nUI / UX User Interface / User Experience\nBLE / IoT Bluetooth Low Energy / In"
+    },
+    {
+        "source_file": "fyp_proposal_11.pdf",
+        "page": 2,
+        "text": "ternet of Things\n1. Introduction & Problem Statement\nThe project titled \"Deepfake Video Detection and Content Verification System for Media Forensic\nAnalysis\" addresses critical architectural paradigms within the modern computer science landscape. As\ninformation engineering systems shift toward distributed, agile environments, specialized automated\nmonitoring  and  optimization  models  become  absolutely  paramount  to  unlock  next-generation\nperformance. \nProblem  Statement: The  rapid  expan"
+    },
+    {
+        "source_file": "fyp_proposal_11.pdf",
+        "page": 2,
+        "text": "sion  of  hyper-realistic  generative  AI  models  allows  malicious\nactors  to  weaponize  synthetic  deepfake  videos,  rapidly  destabilizing  socio-political  systems,\nmanipulating  financial  markets,  and  fabricating  damaging  defamatory  narratives  without  verification\nbarriers. Without an automated, reliable system structure to streamline these processes, operational\n2"
+    },
+    {
+        "source_file": "fyp_proposal_11.pdf",
+        "page": 3,
+        "text": "risks  escalate  dramatically.  This  system  solves  this  missing  gap  by  developing  an  optimized\ncomputational pipeline that acts as a robust mechanism for resolving these complex challenges. \n2. Objectives of Project\nThe primary structural milestones mapped for this software development cycle are:\nDevelop an efficient spatiotemporal CNN-LSTM architecture tracking minute inter-frame facial\ninconsistencies and blink frequencies.\nBuild a fast verification extraction pipeline analyzing audio"
+    },
+    {
+        "source_file": "fyp_proposal_11.pdf",
+        "page": 3,
+        "text": "-to-visual voice lip sync deviations\nautomatically.\nImplement an immutable, cryptographic blockchain indexing registry saving valid media file structural\nhash keys.\n3. Methodology & System Architecture\nThe system adheres to a structured, modular pipeline layout designed using a decoupled Client-Server\nmodel. This ensures that heavy backend model inferencing jobs do not impair the frontend interface\napplication execution parameters. \nCore Modules:\nAuthentication & Profile Integration Module: Hand"
+    },
+    {
+        "source_file": "fyp_proposal_11.pdf",
+        "page": 3,
+        "text": "les user record enrollment and data secure\ncaching sequences smoothly.\nCore Execution and Inference Pipeline: Manages real-time data ingestion, transformation\noperations, and algorithmic processing nodes.\nAnalytics & Reporting Layout Engine: Aggregates calculation products, compiling structured\nsystem reports safely.\n[System Architecture Design: React Native Client Interface \u2190\u2192 Secure Gateway APIs \u2190\u2192 Python/\nNode Compute Processing Engines \u2190\u2192 Scalable Vector/Relational Databases] \n\u2022 \n\u2022 \n\u2022 \n1. \n2"
+    },
+    {
+        "source_file": "fyp_proposal_11.pdf",
+        "page": 4,
+        "text": "4. Proposed Time Schedule\nPhase Activity Description Duration (2025-2026)\nPhase 1 Literature Survey & Component Finalization December\nPhase 2 Architecture Modeling & Engineering Checks January - February\nPhase 3 Core Engine Development & Coding Cycle March - April\nPhase 4 System Verification Testing & Report Synthesis May - June\nVisual Timeline (Gantt Chart Representation)\nActivity Dec Jan Feb Mar Apr May\nLiterature Gathering \u2588\u2588\nScheme Design Modeling \u2588\u2588 \u2588\u2588\nSystem Core Coding \u2588\u2588 \u2588\u2588\nVerification "
+    },
+    {
+        "source_file": "fyp_proposal_11.pdf",
+        "page": 4,
+        "text": "& Writing \u2588\u2588\n5. Budget Description & Technical Stack\nThe project leverages open-source libraries and public cloud deployment tiers, achieving maximum\nsoftware efficiency with minimal capital expenditures. All computation and model runs are hosted on\nstandard developer hardware platforms already in position. \nProposed Technical Core Stack: React Native Mobile View, Python Django Framework, OpenCV,\nPyTorch, Librosa Feature Engine, Ethereum Testnet.\n6. Undertaking & Project Declarations\nWe hereby d"
+    },
+    {
+        "source_file": "fyp_proposal_11.pdf",
+        "page": 4,
+        "text": "eclare that this technical development proposal is our genuine work executed under supervision\nat IQRA National University. No portion of this engineering research layout has been submitted previously for\nacademic credit at any alternative educational board. \nStudent 1 Signature Student 2 Signature\n4"
+    },
+    {
+        "source_file": "fyp_proposal_11.pdf",
+        "page": 5,
+        "text": "7. Institutional Review Panel Logs\nSupervisor Evaluation Section:\nSupervisor Signature Date: ____/____/______\nFYP Department Coordinator Workspace:\nCoordinator SignatureStatus: APPROVED / HOLD\n5"
+    },
+    {
+        "source_file": "fyp_proposal_12.pdf",
+        "page": 1,
+        "text": "FINAL YEAR PROJECT PROPOSAL\nINTELLIGENT SUPPLY CHAIN DEMAND\nFORECASTING AND LOGISTICS ROUTING\nINFRASTRUCTURE\nINU\nSubmitted By:\nWaqas Khan (21101)\nYaser Mahmood (21112)\nSession 2022-2026\nSupervised By:\nDr. Tariq Mahmood\nA project proposal submitted to The IQRA National University, Peshawar in partial fulfillment of the requirements for\nthe degree of \nBACHELOR OF SCIENCE (BS) IN COMPUTER SCIENCE\nSCHOOL OF COMPUTER SCIENCE\nIQRA NATIONAL UNIVERSITY, PESHAWAR-PAKISTAN\nDecember, 2025\n1"
+    },
+    {
+        "source_file": "fyp_proposal_12.pdf",
+        "page": 2,
+        "text": "Table of Contents\n1. Introduction & Problem Statement 1\n2. Objectives of Project 1\n3. Methodology & System Architecture 2\n4. Proposed Time Schedule (Gantt Chart) 3\n5. Budget Description & Technical Stack 3\n6. Undertaking & Signatures 4\nList of Acronyms\nAcronym Description\nINU IQRA National University\nAI Artificial Intelligence\nNLP Natural Language Processing\nLLM Large Language Model\nAPI Application Programming Interface\nUI / UX User Interface / User Experience\nBLE / IoT Bluetooth Low Energy / In"
+    },
+    {
+        "source_file": "fyp_proposal_12.pdf",
+        "page": 2,
+        "text": "ternet of Things\n1. Introduction & Problem Statement\nThe  project  titled  \"Intelligent  Supply  Chain  Demand  Forecasting  and  Logistics  Routing\nInfrastructure\" addresses  critical  architectural  paradigms  within  the  modern  computer  science\nlandscape. As information engineering systems shift toward distributed, agile environments, specialized\nautomated monitoring and optimization models become absolutely paramount to unlock next-generation\nperformance. \nProblem Statement: Enterprise re"
+    },
+    {
+        "source_file": "fyp_proposal_12.pdf",
+        "page": 2,
+        "text": "tail distributors suffer massive financial hits due to chaotic supply\nimbalances, under-stocking key components, or over-allocating warehouse volumes. These tracking\nstruggles are magnified by rigid routing models that ignore volatile live weather updates and real-time\nurban road delays. Without an automated, reliable system structure to streamline these processes,\n2"
+    },
+    {
+        "source_file": "fyp_proposal_12.pdf",
+        "page": 3,
+        "text": "operational risks escalate dramatically. This system solves this missing gap by developing an optimized\ncomputational pipeline that acts as a robust mechanism for resolving these complex challenges. \n2. Objectives of Project\nThe primary structural milestones mapped for this software development cycle are:\nConstruct an multi-variable Transformer forecasting pipeline evaluating historic sales variables and\nregional event calendars.\nDevelop a dynamic vehicle dispatch optimization engine based on cu"
+    },
+    {
+        "source_file": "fyp_proposal_12.pdf",
+        "page": 3,
+        "text": "stomized multi-agent genetic\nalgorithms.\nDeliver a granular live dashboard displaying geofenced transport delivery progress tracks along with\nETA updates.\n3. Methodology & System Architecture\nThe system adheres to a structured, modular pipeline layout designed using a decoupled Client-Server\nmodel. This ensures that heavy backend model inferencing jobs do not impair the frontend interface\napplication execution parameters. \nCore Modules:\nAuthentication & Profile Integration Module: Handles user r"
+    },
+    {
+        "source_file": "fyp_proposal_12.pdf",
+        "page": 3,
+        "text": "ecord enrollment and data secure\ncaching sequences smoothly.\nCore Execution and Inference Pipeline: Manages real-time data ingestion, transformation\noperations, and algorithmic processing nodes.\nAnalytics & Reporting Layout Engine: Aggregates calculation products, compiling structured\nsystem reports safely.\n[System Architecture Design: React Native Client Interface \u2190\u2192 Secure Gateway APIs \u2190\u2192 Python/\nNode Compute Processing Engines \u2190\u2192 Scalable Vector/Relational Databases] \n\u2022 \n\u2022 \n\u2022 \n1. \n2. \n3. \n3"
+    },
+    {
+        "source_file": "fyp_proposal_12.pdf",
+        "page": 4,
+        "text": "4. Proposed Time Schedule\nPhase Activity Description Duration (2025-2026)\nPhase 1 Literature Survey & Component Finalization December\nPhase 2 Architecture Modeling & Engineering Checks January - February\nPhase 3 Core Engine Development & Coding Cycle March - April\nPhase 4 System Verification Testing & Report Synthesis May - June\nVisual Timeline (Gantt Chart Representation)\nActivity Dec Jan Feb Mar Apr May\nLiterature Gathering \u2588\u2588\nScheme Design Modeling \u2588\u2588 \u2588\u2588\nSystem Core Coding \u2588\u2588 \u2588\u2588\nVerification "
+    },
+    {
+        "source_file": "fyp_proposal_12.pdf",
+        "page": 4,
+        "text": "& Writing \u2588\u2588\n5. Budget Description & Technical Stack\nThe project leverages open-source libraries and public cloud deployment tiers, achieving maximum\nsoftware efficiency with minimal capital expenditures. All computation and model runs are hosted on\nstandard developer hardware platforms already in position. \nProposed Technical Core Stack: React Native App, Node.js Enterprise Server, TensorFlow, Google\nMaps Matrix API, PostgreSQL, RabbitMQ.\n6. Undertaking & Project Declarations\nWe hereby declare "
+    },
+    {
+        "source_file": "fyp_proposal_12.pdf",
+        "page": 4,
+        "text": "that this technical development proposal is our genuine work executed under supervision\nat IQRA National University. No portion of this engineering research layout has been submitted previously for\nacademic credit at any alternative educational board. \nStudent 1 Signature Student 2 Signature\n4"
+    },
+    {
+        "source_file": "fyp_proposal_12.pdf",
+        "page": 5,
+        "text": "7. Institutional Review Panel Logs\nSupervisor Evaluation Section:\nSupervisor Signature Date: ____/____/______\nFYP Department Coordinator Workspace:\nCoordinator SignatureStatus: APPROVED / HOLD\n5"
+    },
+    {
+        "source_file": "fyp_proposal_13.pdf",
+        "page": 1,
+        "text": "FINAL YEAR PROJECT PROPOSAL\nCLOUD-NATIVE MICROSERVICES SECURITY\nORCHESTRATOR USING EBPF NETWORK ANOMALY\nDETECTION\nINU\nSubmitted By:\nZain Ali (20910)\nAdnan Khan (20925)\nSession 2022-2026\nSupervised By:\nEngr. Mubashir Zainoor\nA project proposal submitted to The IQRA National University, Peshawar in partial fulfillment of the requirements for\nthe degree of \nBACHELOR OF SCIENCE (BS) IN COMPUTER SCIENCE\nSCHOOL OF COMPUTER SCIENCE\nIQRA NATIONAL UNIVERSITY, PESHAWAR-PAKISTAN\nDecember, 2025\n1"
+    },
+    {
+        "source_file": "fyp_proposal_13.pdf",
+        "page": 2,
+        "text": "Table of Contents\n1. Introduction & Problem Statement 1\n2. Objectives of Project 1\n3. Methodology & System Architecture 2\n4. Proposed Time Schedule (Gantt Chart) 3\n5. Budget Description & Technical Stack 3\n6. Undertaking & Signatures 4\nList of Acronyms\nAcronym Description\nINU IQRA National University\nAI Artificial Intelligence\nNLP Natural Language Processing\nLLM Large Language Model\nAPI Application Programming Interface\nUI / UX User Interface / User Experience\nBLE / IoT Bluetooth Low Energy / In"
+    },
+    {
+        "source_file": "fyp_proposal_13.pdf",
+        "page": 2,
+        "text": "ternet of Things\n1. Introduction & Problem Statement\nThe  project  titled  \"Cloud-Native  Microservices  Security  Orchestrator  Using  eBPF  Network\nAnomaly Detection\" addresses critical architectural paradigms within the modern computer science\nlandscape. As information engineering systems shift toward distributed, agile environments, specialized\nautomated monitoring and optimization models become absolutely paramount to unlock next-generation\nperformance. \nProblem Statement: Modern cloud syst"
+    },
+    {
+        "source_file": "fyp_proposal_13.pdf",
+        "page": 2,
+        "text": "ems running complex microservice grids face structural visibility\ndeficits.  Attackers  bypass  traditional  edge  firewalls  by  moving  laterally  through  internal  networks,\nmasking  malicious  activities  inside  legal  application-level  payload  protocols.  Without  an  automated,\nreliable system structure to streamline these processes, operational risks escalate dramatically. This\n2"
+    },
+    {
+        "source_file": "fyp_proposal_13.pdf",
+        "page": 3,
+        "text": "system solves this missing gap by developing an optimized computational pipeline that acts as a robust\nmechanism for resolving these complex challenges. \n2. Objectives of Project\nThe primary structural milestones mapped for this software development cycle are:\nDevelop kernel-level eBPF instrumentation scripts tracing system socket calls safely without adding\nruntime latency overhead.\nImplement an isolation profiling engine checking system execution calls against baseline behavior\ntemplates.\nCons"
+    },
+    {
+        "source_file": "fyp_proposal_13.pdf",
+        "page": 3,
+        "text": "truct an automated, low-latency container teardown routine to isolate compromised container\nentities instantaneously.\n3. Methodology & System Architecture\nThe system adheres to a structured, modular pipeline layout designed using a decoupled Client-Server\nmodel. This ensures that heavy backend model inferencing jobs do not impair the frontend interface\napplication execution parameters. \nCore Modules:\nAuthentication & Profile Integration Module: Handles user record enrollment and data secure\ncach"
+    },
+    {
+        "source_file": "fyp_proposal_13.pdf",
+        "page": 3,
+        "text": "ing sequences smoothly.\nCore Execution and Inference Pipeline: Manages real-time data ingestion, transformation\noperations, and algorithmic processing nodes.\nAnalytics & Reporting Layout Engine: Aggregates calculation products, compiling structured\nsystem reports safely.\n[System Architecture Design: React Native Client Interface \u2190\u2192 Secure Gateway APIs \u2190\u2192 Python/\nNode Compute Processing Engines \u2190\u2192 Scalable Vector/Relational Databases] \n\u2022 \n\u2022 \n\u2022 \n1. \n2. \n3. \n3"
+    },
+    {
+        "source_file": "fyp_proposal_13.pdf",
+        "page": 4,
+        "text": "4. Proposed Time Schedule\nPhase Activity Description Duration (2025-2026)\nPhase 1 Literature Survey & Component Finalization December\nPhase 2 Architecture Modeling & Engineering Checks January - February\nPhase 3 Core Engine Development & Coding Cycle March - April\nPhase 4 System Verification Testing & Report Synthesis May - June\nVisual Timeline (Gantt Chart Representation)\nActivity Dec Jan Feb Mar Apr May\nLiterature Gathering \u2588\u2588\nScheme Design Modeling \u2588\u2588 \u2588\u2588\nSystem Core Coding \u2588\u2588 \u2588\u2588\nVerification "
+    },
+    {
+        "source_file": "fyp_proposal_13.pdf",
+        "page": 4,
+        "text": "& Writing \u2588\u2588\n5. Budget Description & Technical Stack\nThe project leverages open-source libraries and public cloud deployment tiers, achieving maximum\nsoftware efficiency with minimal capital expenditures. All computation and model runs are hosted on\nstandard developer hardware platforms already in position. \nProposed Technical Core Stack: React Native Admin Dashboard, Go Micro-Services, eBPF Kernel\nModules, Prometheus Telemetry, Kubernetes, TimescaleDB.\n6. Undertaking & Project Declarations\nWe h"
+    },
+    {
+        "source_file": "fyp_proposal_13.pdf",
+        "page": 4,
+        "text": "ereby declare that this technical development proposal is our genuine work executed under supervision\nat IQRA National University. No portion of this engineering research layout has been submitted previously for\nacademic credit at any alternative educational board. \nStudent 1 Signature Student 2 Signature\n4"
+    },
+    {
+        "source_file": "fyp_proposal_13.pdf",
+        "page": 5,
+        "text": "7. Institutional Review Panel Logs\nSupervisor Evaluation Section:\nSupervisor Signature Date: ____/____/______\nFYP Department Coordinator Workspace:\nCoordinator SignatureStatus: APPROVED / HOLD\n5"
+    },
+    {
+        "source_file": "fyp_proposal_14.pdf",
+        "page": 1,
+        "text": "FINAL YEAR PROJECT PROPOSAL\nSMART PERSONALIZED REHABILITATION SYSTEM\nUSING WEARABLE IMU SENSORS AND AI\nEVALUATION\nINU\nSubmitted By:\nBilal Ahmad (21601)\nHamza Khan (21619)\nSession 2022-2026\nSupervised By:\nEngr. Sana Fatima\nA project proposal submitted to The IQRA National University, Peshawar in partial fulfillment of the requirements for\nthe degree of \nBACHELOR OF SCIENCE (BS) IN COMPUTER SCIENCE\nSCHOOL OF COMPUTER SCIENCE\nIQRA NATIONAL UNIVERSITY, PESHAWAR-PAKISTAN\nDecember, 2025\n1"
+    },
+    {
+        "source_file": "fyp_proposal_14.pdf",
+        "page": 2,
+        "text": "Table of Contents\n1. Introduction & Problem Statement 1\n2. Objectives of Project 1\n3. Methodology & System Architecture 2\n4. Proposed Time Schedule (Gantt Chart) 3\n5. Budget Description & Technical Stack 3\n6. Undertaking & Signatures 4\nList of Acronyms\nAcronym Description\nINU IQRA National University\nAI Artificial Intelligence\nNLP Natural Language Processing\nLLM Large Language Model\nAPI Application Programming Interface\nUI / UX User Interface / User Experience\nBLE / IoT Bluetooth Low Energy / In"
+    },
+    {
+        "source_file": "fyp_proposal_14.pdf",
+        "page": 2,
+        "text": "ternet of Things\n1. Introduction & Problem Statement\nThe project titled \"Smart Personalized Rehabilitation System Using Wearable IMU Sensors and AI\nEvaluation\" addresses critical architectural paradigms within the modern computer science landscape.\nAs information engineering systems shift toward distributed, agile environments, specialized automated\nmonitoring  and  optimization  models  become  absolutely  paramount  to  unlock  next-generation\nperformance. \nProblem Statement: Physical therapy "
+    },
+    {
+        "source_file": "fyp_proposal_14.pdf",
+        "page": 2,
+        "text": "patients recovering from severe motor-skeletal traumas often\nexecute critical home exercises incorrectly without direct supervisor presence. This lack of objective\nmonitoring causes secondary joint stresses and severely derails overall clinical physical restoration\ntimelines. Without an automated, reliable system structure to streamline these processes, operational\n2"
+    },
+    {
+        "source_file": "fyp_proposal_14.pdf",
+        "page": 3,
+        "text": "risks  escalate  dramatically.  This  system  solves  this  missing  gap  by  developing  an  optimized\ncomputational pipeline that acts as a robust mechanism for resolving these complex challenges. \n2. Objectives of Project\nThe primary structural milestones mapped for this software development cycle are:\nBuild an active IoT data collection architecture streaming real-time multi-axis IMU spatial coordinates\nsmoothly over BLE nodes.\nDevelop a dynamic time-warping trajectory algorithm evaluating e"
+    },
+    {
+        "source_file": "fyp_proposal_14.pdf",
+        "page": 3,
+        "text": "xact physical movement deviation\nangles against medical baselines.\nDeliver a gamified interface providing corrective posture hints and automated compliance records\ndirectly to providers.\n3. Methodology & System Architecture\nThe system adheres to a structured, modular pipeline layout designed using a decoupled Client-Server\nmodel. This ensures that heavy backend model inferencing jobs do not impair the frontend interface\napplication execution parameters. \nCore Modules:\nAuthentication & Profile In"
+    },
+    {
+        "source_file": "fyp_proposal_14.pdf",
+        "page": 3,
+        "text": "tegration Module: Handles user record enrollment and data secure\ncaching sequences smoothly.\nCore Execution and Inference Pipeline: Manages real-time data ingestion, transformation\noperations, and algorithmic processing nodes.\nAnalytics & Reporting Layout Engine: Aggregates calculation products, compiling structured\nsystem reports safely.\n[System Architecture Design: React Native Client Interface \u2190\u2192 Secure Gateway APIs \u2190\u2192 Python/\nNode Compute Processing Engines \u2190\u2192 Scalable Vector/Relational Data"
+    },
+    {
+        "source_file": "fyp_proposal_14.pdf",
+        "page": 3,
+        "text": "bases] \n\u2022 \n\u2022 \n\u2022 \n1. \n2. \n3. \n3"
+    },
+    {
+        "source_file": "fyp_proposal_14.pdf",
+        "page": 4,
+        "text": "4. Proposed Time Schedule\nPhase Activity Description Duration (2025-2026)\nPhase 1 Literature Survey & Component Finalization December\nPhase 2 Architecture Modeling & Engineering Checks January - February\nPhase 3 Core Engine Development & Coding Cycle March - April\nPhase 4 System Verification Testing & Report Synthesis May - June\nVisual Timeline (Gantt Chart Representation)\nActivity Dec Jan Feb Mar Apr May\nLiterature Gathering \u2588\u2588\nScheme Design Modeling \u2588\u2588 \u2588\u2588\nSystem Core Coding \u2588\u2588 \u2588\u2588\nVerification "
+    },
+    {
+        "source_file": "fyp_proposal_14.pdf",
+        "page": 4,
+        "text": "& Writing \u2588\u2588\n5. Budget Description & Technical Stack\nThe project leverages open-source libraries and public cloud deployment tiers, achieving maximum\nsoftware efficiency with minimal capital expenditures. All computation and model runs are hosted on\nstandard developer hardware platforms already in position. \nProposed Technical Core Stack: React Native App, Python Flask Server, Arduino BLE Hardware,\nSciKit-Learn ML Libraries, SQLite Local, ChartJS Engines.\n6. Undertaking & Project Declarations\nWe"
+    },
+    {
+        "source_file": "fyp_proposal_14.pdf",
+        "page": 4,
+        "text": " hereby declare that this technical development proposal is our genuine work executed under supervision\nat IQRA National University. No portion of this engineering research layout has been submitted previously for\nacademic credit at any alternative educational board. \nStudent 1 Signature Student 2 Signature\n4"
+    },
+    {
+        "source_file": "fyp_proposal_14.pdf",
+        "page": 5,
+        "text": "7. Institutional Review Panel Logs\nSupervisor Evaluation Section:\nSupervisor Signature Date: ____/____/______\nFYP Department Coordinator Workspace:\nCoordinator SignatureStatus: APPROVED / HOLD\n5"
+    },
+    {
+        "source_file": "fyp_proposal_15.pdf",
+        "page": 1,
+        "text": "FINAL YEAR PROJECT PROPOSAL\nEDGE-COMPUTING WILDLIFE POACHING\nPREVENTION SYSTEM USING ACOUSTIC PATTERN\nRECOGNITION\nINU\nSubmitted By:\nDanish Ali (20441)\nAsif Mahmood (20455)\nSession 2022-2026\nSupervised By:\nDr. Amjad Waheed\nA project proposal submitted to The IQRA National University, Peshawar in partial fulfillment of the requirements for\nthe degree of \nBACHELOR OF SCIENCE (BS) IN COMPUTER SCIENCE\nSCHOOL OF COMPUTER SCIENCE\nIQRA NATIONAL UNIVERSITY, PESHAWAR-PAKISTAN\nDecember, 2025\n1"
+    },
+    {
+        "source_file": "fyp_proposal_15.pdf",
+        "page": 2,
+        "text": "Table of Contents\n1. Introduction & Problem Statement 1\n2. Objectives of Project 1\n3. Methodology & System Architecture 2\n4. Proposed Time Schedule (Gantt Chart) 3\n5. Budget Description & Technical Stack 3\n6. Undertaking & Signatures 4\nList of Acronyms\nAcronym Description\nINU IQRA National University\nAI Artificial Intelligence\nNLP Natural Language Processing\nLLM Large Language Model\nAPI Application Programming Interface\nUI / UX User Interface / User Experience\nBLE / IoT Bluetooth Low Energy / In"
+    },
+    {
+        "source_file": "fyp_proposal_15.pdf",
+        "page": 2,
+        "text": "ternet of Things\n1. Introduction & Problem Statement\nThe project titled \"Edge-Computing Wildlife Poaching Prevention System Using Acoustic Pattern\nRecognition\" addresses critical architectural paradigms within the modern computer science landscape.\nAs information engineering systems shift toward distributed, agile environments, specialized automated\nmonitoring  and  optimization  models  become  absolutely  paramount  to  unlock  next-generation\nperformance. \nProblem  Statement: Endangered  natu"
+    },
+    {
+        "source_file": "fyp_proposal_15.pdf",
+        "page": 2,
+        "text": "re  preserves  face  severe  losses  due  to  highly  organized\nnocturnal poaching teams. Standard wildlife tracking schemes rely on sparse ranger units patrolling huge\nterritories or satellite tags that do not provide real-time alerts for localized gunshots or vehicle intrusions.\nWithout  an  automated,  reliable  system  structure  to  streamline  these  processes,  operational  risks\n2"
+    },
+    {
+        "source_file": "fyp_proposal_15.pdf",
+        "page": 3,
+        "text": "escalate dramatically. This system solves this missing gap by developing an optimized computational\npipeline that acts as a robust mechanism for resolving these complex challenges. \n2. Objectives of Project\nThe primary structural milestones mapped for this software development cycle are:\nDeploy highly optimized audio feature extraction modules calculating Mel-Frequency Cepstral\nCoefficients (MFCCs) on-device.\nTrain an ultra-lightweight convolutional neural network classifying gunshot acoustic si"
+    },
+    {
+        "source_file": "fyp_proposal_15.pdf",
+        "page": 3,
+        "text": "gnatures in high\nnoise conditions.\nDesign a solar-powered, long-range mesh communications layout broadcasting target threat\ncoordinates to tracking stations.\n3. Methodology & System Architecture\nThe system adheres to a structured, modular pipeline layout designed using a decoupled Client-Server\nmodel. This ensures that heavy backend model inferencing jobs do not impair the frontend interface\napplication execution parameters. \nCore Modules:\nAuthentication & Profile Integration Module: Handles use"
+    },
+    {
+        "source_file": "fyp_proposal_15.pdf",
+        "page": 3,
+        "text": "r record enrollment and data secure\ncaching sequences smoothly.\nCore Execution and Inference Pipeline: Manages real-time data ingestion, transformation\noperations, and algorithmic processing nodes.\nAnalytics & Reporting Layout Engine: Aggregates calculation products, compiling structured\nsystem reports safely.\n[System Architecture Design: React Native Client Interface \u2190\u2192 Secure Gateway APIs \u2190\u2192 Python/\nNode Compute Processing Engines \u2190\u2192 Scalable Vector/Relational Databases] \n\u2022 \n\u2022 \n\u2022 \n1. \n2. \n3. \n"
+    },
+    {
+        "source_file": "fyp_proposal_15.pdf",
+        "page": 4,
+        "text": "4. Proposed Time Schedule\nPhase Activity Description Duration (2025-2026)\nPhase 1 Literature Survey & Component Finalization December\nPhase 2 Architecture Modeling & Engineering Checks January - February\nPhase 3 Core Engine Development & Coding Cycle March - April\nPhase 4 System Verification Testing & Report Synthesis May - June\nVisual Timeline (Gantt Chart Representation)\nActivity Dec Jan Feb Mar Apr May\nLiterature Gathering \u2588\u2588\nScheme Design Modeling \u2588\u2588 \u2588\u2588\nSystem Core Coding \u2588\u2588 \u2588\u2588\nVerification "
+    },
+    {
+        "source_file": "fyp_proposal_15.pdf",
+        "page": 4,
+        "text": "& Writing \u2588\u2588\n5. Budget Description & Technical Stack\nThe project leverages open-source libraries and public cloud deployment tiers, achieving maximum\nsoftware efficiency with minimal capital expenditures. All computation and model runs are hosted on\nstandard developer hardware platforms already in position. \nProposed  Technical  Core  Stack: React  Native  Control  Center,  Python  Fast-API,  Edge  Impulse,\nTensorFlow Lite, LoRaWAN Protocol Nodes, GIS Mapping Tools.\n6. Undertaking & Project Decl"
+    },
+    {
+        "source_file": "fyp_proposal_15.pdf",
+        "page": 4,
+        "text": "arations\nWe hereby declare that this technical development proposal is our genuine work executed under supervision\nat IQRA National University. No portion of this engineering research layout has been submitted previously for\nacademic credit at any alternative educational board. \nStudent 1 Signature Student 2 Signature\n4"
+    },
+    {
+        "source_file": "fyp_proposal_15.pdf",
+        "page": 5,
+        "text": "7. Institutional Review Panel Logs\nSupervisor Evaluation Section:\nSupervisor Signature Date: ____/____/______\nFYP Department Coordinator Workspace:\nCoordinator SignatureStatus: APPROVED / HOLD\n5"
+    },
+    {
+        "source_file": "fyp_proposal_16.pdf",
+        "page": 1,
+        "text": "FINAL YEAR PROJECT PROPOSAL\nDEEPFAKE VIDEO DETECTION AND CONTENT\nVERIFICATION SYSTEM FOR MEDIA FORENSIC\nANALYSIS \nIQRA NATIONAL UNIVERSITY, PESHAWAR \nSubmitted By:\nTayyab Shah (20771)\nZeeshan Ali (20779)\nSupervised By:\nDr. Mubashir Zainoor\nA project proposal submitted to The IQRA National University, Peshawar in partial fulfillment of the\nrequirements for the degree of Bachelor of Science (BS) in Computer Science. \nSCHOOL OF COMPUTER SCIENCE\nIQRA NATIONAL UNIVERSITY, PESHAWAR-PAKISTAN\nDecember, "
+    },
+    {
+        "source_file": "fyp_proposal_16.pdf",
+        "page": 2,
+        "text": "1. Introduction & Problem Statement\nThe research framework titled \"Deepfake Video Detection and Content Verification System for Media Forensic\nAnalysis\"  targets  vital  architectural  paradigms  within  the  contemporary  computer  science  landscape.  Because\nmodern  information  engineering  systems  are  moving  rapidly  toward  decentralized,  agile  spaces,  specialized\nautomated monitoring frameworks alongside intelligent optimization pipelines become absolutely paramount to\nunlock next-g"
+    },
+    {
+        "source_file": "fyp_proposal_16.pdf",
+        "page": 2,
+        "text": "eneration capabilities. \nProblem Statement: The aggressive evolution of hyper-realistic generative AI models empowers malicious\nindividuals to weaponize synthetic deepfake video clips. This paradigm rapidly destabilizes socio-political\nsystems, manipulates financial market conditions, and fabricates highly damaging, defamatory narratives\nwithout robust verification mechanisms standing in the way. Without an automated, dependable system\narchitecture designed to simplify these computational workfl"
+    },
+    {
+        "source_file": "fyp_proposal_16.pdf",
+        "page": 2,
+        "text": "ows, operational risks continue to escalate\ndrastically. This platform fills this missing gap by constructing an optimized algorithmic infrastructure that\nserves as a resilient mechanism for resolving these complex data integrity challenges. \n2. Project Objectives\nThe core structural targets and milestones mapped for this software engineering lifecycle include:\nDesigning a highly efficient spatiotemporal CNN-LSTM architecture that tracks microscopic inter-frame facial\ndiscrepancies and subtle bl"
+    },
+    {
+        "source_file": "fyp_proposal_16.pdf",
+        "page": 2,
+        "text": "inking frequencies.\nConstructing a rapid verification extraction pipeline capable of automatically reviewing audio-to-visual voice\nlip sync alterations.\nDeploying an unalterable, cryptographic blockchain indexing registry that saves valid media file structural hash\nkeys securely.\n3. Methodology & System Architecture\nThe software infrastructure strictly adheres to a highly structured, modular processing layout constructed on a\ndecoupled Client-Server model. This design paradigm guarantees that in"
+    },
+    {
+        "source_file": "fyp_proposal_16.pdf",
+        "page": 2,
+        "text": "tensive backend model inference pipelines\ndo not disrupt or degrade the front-end user interface application execution parameters. \nPrimary Engineering Modules:\nAuthentication  &  Profile  Integration  Module: Handles  user  record  enrollment  sequences  and  secures\nbackground data caching streams smoothly.\nCore  Execution  and  Inference  Pipeline: Supervises  live  data  intake  pipelines,  transformation  tasks,  and\nalgorithmic processing nodes.\n\u2022 \n\u2022 \n\u2022 \n\u2022 \n\u2022 \n2"
+    },
+    {
+        "source_file": "fyp_proposal_16.pdf",
+        "page": 3,
+        "text": "Analytics  &  Reporting  Layout  Engine: Gathers  raw  calculation  metrics  to  compile  structured  system\ndiagnostics reports safely.\nSystem Architecture Blueprint:\nReact Native Client Interface \u2192 Secure Gateway APIs \u2192 Node Compute Processing Engines \u2192 Scalable Vector/\nRelational Databases \n4. Proposed Time Schedule\nThe structural implementation strategy follows a strict timeline sequence spread across the academic year:\nPhase Description of Activity Duration (2025-2026)\nPhase 1 Literature Re"
+    },
+    {
+        "source_file": "fyp_proposal_16.pdf",
+        "page": 3,
+        "text": "view & Core Component Selection December\nPhase 2 Architecture Design & Structural Integrity VerificationsJanuary \u2013 February\nPhase 3 Main Engine Development & Coding Implementation CycleMarch \u2013 April\nPhase 4 System Integration Testing & Proposal Synthesis May \u2013 June\n5. Budget Description & Technical Stack\nThe software application fully utilizes open-source libraries alongside public cloud deployment environments,\nhitting  maximum  performance  efficiency  with  negligible  capital  outlays.  All "
+    },
+    {
+        "source_file": "fyp_proposal_16.pdf",
+        "page": 3,
+        "text": " heavy  computational  processing\nworkloads and deep learning model training sessions are run directly on standard developer workstation hardware\nplatforms already accessible to the core engineering team. \nProposed Technical Core Stack: React Native Mobile View, Python Django Framework, OpenCV , PyTorch,\nLibrosa Feature Engine, and Ethereum Testnet architecture. \n6. Undertaking & Project Declarations\nWe  explicitly  declare  that  this  technical  engineering  proposal  represents  our  authenti"
+    },
+    {
+        "source_file": "fyp_proposal_16.pdf",
+        "page": 3,
+        "text": "c  development  efforts\ncompleted under guidance at IQRA National University. No segment of this engineering research design has been\npreviously handed in for academic credit at any alternative educational institution or board. \n\u2022 \n3"
+    },
+    {
+        "source_file": "fyp_proposal_16.pdf",
+        "page": 4,
+        "text": "Student 1 Signature Student 2 Signature\n4"
+    },
+    {
+        "source_file": "fyp_proposal_2.pdf",
+        "page": 1,
+        "text": "FINAL YEAR PROJECT PROPOSAL\nDECENTRALIZED ELECTRONIC HEALTH RECORD\n(EHR) MANAGEMENT SYSTEM VIA SMART\nCONTRACTS\nINU\nSubmitted By:\nBilal Hassan (20112)\nHamza Ali (20115)\nSession 2022-2026\nSupervised By:\nEngr. Sana Fatima\nA project proposal submitted to The IQRA National University, Peshawar in partial fulfillment of the requirements for\nthe degree of \nBACHELOR OF SCIENCE (BS) IN COMPUTER SCIENCE\nSCHOOL OF COMPUTER SCIENCE\nIQRA NATIONAL UNIVERSITY, PESHAWAR-PAKISTAN\nDecember, 2025\n1"
+    },
+    {
+        "source_file": "fyp_proposal_2.pdf",
+        "page": 2,
+        "text": "Table of Contents\n1. Introduction & Problem Statement 1\n2. Objectives of Project 1\n3. Methodology & System Architecture 2\n4. Proposed Time Schedule (Gantt Chart) 3\n5. Budget Description & Technical Stack 3\n6. Undertaking & Signatures 4\nList of Acronyms\nAcronym Description\nINU IQRA National University\nAI Artificial Intelligence\nNLP Natural Language Processing\nLLM Large Language Model\nAPI Application Programming Interface\nUI / UX User Interface / User Experience\nBLE / IoT Bluetooth Low Energy / In"
+    },
+    {
+        "source_file": "fyp_proposal_2.pdf",
+        "page": 2,
+        "text": "ternet of Things\n1. Introduction & Problem Statement\nThe project titled  \"Decentralized Electronic Health Record (EHR) Management System via Smart\nContracts\" addresses critical architectural paradigms within the modern computer science landscape.\nAs information engineering systems shift toward distributed, agile environments, specialized automated\nmonitoring  and  optimization  models  become  absolutely  paramount  to  unlock  next-generation\nperformance. \nProblem Statement: Modern healthcare s"
+    },
+    {
+        "source_file": "fyp_proposal_2.pdf",
+        "page": 2,
+        "text": "etups house patient records within rigid siloed databases\nsusceptible  to  malicious  single-point-of-failure  breaches  and  illegal  alterations.  Inter-hospital  record\nsharing remains slow, highly fragmented, and heavily exposed to systemic credential leaks, creating\nmassive friction when immediate validation is essential during unexpected medical emergencies. Without\n2"
+    },
+    {
+        "source_file": "fyp_proposal_2.pdf",
+        "page": 3,
+        "text": "an  automated,  reliable  system  structure  to  streamline  these  processes,  operational  risks  escalate\ndramatically. This system solves this missing gap by developing an optimized computational pipeline that\nacts as a robust mechanism for resolving these complex challenges. \n2. Objectives of Project\nThe primary structural milestones mapped for this software development cycle are:\nArchitect a highly resilient, permissioned consortium blockchain network layout utilizing Hyperledger\nFabric fr"
+    },
+    {
+        "source_file": "fyp_proposal_2.pdf",
+        "page": 3,
+        "text": "amework primitives.\nFormulate secure execution smart contracts enforcing strict patient-governed access delegation\ncontrols over granular medical data items.\nBuild an intuitive cross-platform administrative portal enabling certified medical professionals to\nretrieve records upon validation safely.\n3. Methodology & System Architecture\nThe system adheres to a structured, modular pipeline layout designed using a decoupled Client-Server\nmodel. This ensures that heavy backend model inferencing jobs d"
+    },
+    {
+        "source_file": "fyp_proposal_2.pdf",
+        "page": 3,
+        "text": "o not impair the frontend interface\napplication execution parameters. \nCore Modules:\nAuthentication & Profile Integration Module: Handles user record enrollment and data secure\ncaching sequences smoothly.\nCore Execution and Inference Pipeline: Manages real-time data ingestion, transformation\noperations, and algorithmic processing nodes.\nAnalytics & Reporting Layout Engine: Aggregates calculation products, compiling structured\nsystem reports safely.\n[System Architecture Design: React Native Clien"
+    },
+    {
+        "source_file": "fyp_proposal_2.pdf",
+        "page": 3,
+        "text": "t Interface \u2190\u2192 Secure Gateway APIs \u2190\u2192 Python/\nNode Compute Processing Engines \u2190\u2192 Scalable Vector/Relational Databases] \n\u2022 \n\u2022 \n\u2022 \n1. \n2. \n3. \n3"
+    },
+    {
+        "source_file": "fyp_proposal_2.pdf",
+        "page": 4,
+        "text": "4. Proposed Time Schedule\nPhase Activity Description Duration (2025-2026)\nPhase 1 Literature Survey & Component Finalization December\nPhase 2 Architecture Modeling & Engineering Checks January - February\nPhase 3 Core Engine Development & Coding Cycle March - April\nPhase 4 System Verification Testing & Report Synthesis May - June\nVisual Timeline (Gantt Chart Representation)\nActivity Dec Jan Feb Mar Apr May\nLiterature Gathering \u2588\u2588\nScheme Design Modeling \u2588\u2588 \u2588\u2588\nSystem Core Coding \u2588\u2588 \u2588\u2588\nVerification "
+    },
+    {
+        "source_file": "fyp_proposal_2.pdf",
+        "page": 4,
+        "text": "& Writing \u2588\u2588\n5. Budget Description & Technical Stack\nThe project leverages open-source libraries and public cloud deployment tiers, achieving maximum\nsoftware efficiency with minimal capital expenditures. All computation and model runs are hosted on\nstandard developer hardware platforms already in position. \nProposed  Technical  Core  Stack: React  Native,  Node.js  REST  API,  Hyperledger  Fabric,  IPFS\n(InterPlanetary File System), Express, Cryptography.js.\n6. Undertaking & Project Declaration"
+    },
+    {
+        "source_file": "fyp_proposal_2.pdf",
+        "page": 4,
+        "text": "s\nWe hereby declare that this technical development proposal is our genuine work executed under supervision\nat IQRA National University. No portion of this engineering research layout has been submitted previously for\nacademic credit at any alternative educational board. \nStudent 1 Signature Student 2 Signature\n4"
+    },
+    {
+        "source_file": "fyp_proposal_2.pdf",
+        "page": 5,
+        "text": "7. Institutional Review Panel Logs\nSupervisor Evaluation Section:\nSupervisor Signature Date: ____/____/______\nFYP Department Coordinator Workspace:\nCoordinator SignatureStatus: APPROVED / HOLD\n5"
+    },
+    {
+        "source_file": "fyp_proposal_3.pdf",
+        "page": 1,
+        "text": "FINAL YEAR PROJECT PROPOSAL\nREAL-TIME SIGN LANGUAGE TRANSLATION APP\nUSING TRANSFORMERS AND COMPUTER VISION\nINU\nSubmitted By:\nSiddique Akbar (20340)\nMaryam Jan (20355)\nSession 2022-2026\nSupervised By:\nDr. Amjad Waheed\nA project proposal submitted to The IQRA National University, Peshawar in partial fulfillment of the requirements for\nthe degree of \nBACHELOR OF SCIENCE (BS) IN COMPUTER SCIENCE\nSCHOOL OF COMPUTER SCIENCE\nIQRA NATIONAL UNIVERSITY, PESHAWAR-PAKISTAN\nDecember, 2025\n1"
+    },
+    {
+        "source_file": "fyp_proposal_3.pdf",
+        "page": 2,
+        "text": "Table of Contents\n1. Introduction & Problem Statement 1\n2. Objectives of Project 1\n3. Methodology & System Architecture 2\n4. Proposed Time Schedule (Gantt Chart) 3\n5. Budget Description & Technical Stack 3\n6. Undertaking & Signatures 4\nList of Acronyms\nAcronym Description\nINU IQRA National University\nAI Artificial Intelligence\nNLP Natural Language Processing\nLLM Large Language Model\nAPI Application Programming Interface\nUI / UX User Interface / User Experience\nBLE / IoT Bluetooth Low Energy / In"
+    },
+    {
+        "source_file": "fyp_proposal_3.pdf",
+        "page": 2,
+        "text": "ternet of Things\n1. Introduction & Problem Statement\nThe project titled  \"Real-Time Sign Language Translation App Using Transformers and Computer\nVision\" addresses critical architectural paradigms within the modern computer science landscape. As\ninformation engineering systems shift toward distributed, agile environments, specialized automated\nmonitoring  and  optimization  models  become  absolutely  paramount  to  unlock  next-generation\nperformance. \nProblem Statement: The deaf and hard-of-he"
+    },
+    {
+        "source_file": "fyp_proposal_3.pdf",
+        "page": 2,
+        "text": "aring communities experience intense social isolation and\nsystemic  employment  hurdles  due  to  the  lack  of  seamless  real-time  translation  pipelines.  Existing\nstructural models require awkward wearable sensory tracking gloves or are bound to stationary systems\nthat  fail  to  register  continuous,  fluidly  flowing  natural  grammatical  gesture  structures  found  in  live\n2"
+    },
+    {
+        "source_file": "fyp_proposal_3.pdf",
+        "page": 3,
+        "text": "dynamic  sign  conversations.  Without  an  automated,  reliable  system  structure  to  streamline  these\nprocesses, operational risks escalate dramatically. This system solves this missing gap by developing an\noptimized  computational  pipeline  that  acts  as  a  robust  mechanism  for  resolving  these  complex\nchallenges. \n2. Objectives of Project\nThe primary structural milestones mapped for this software development cycle are:\nTrain an optimized vision transformer network to track fine-gra"
+    },
+    {
+        "source_file": "fyp_proposal_3.pdf",
+        "page": 3,
+        "text": "ined facial cues and spatial hand\nlandmark movements synchronously.\nConstruct a fluid, low-latency pipeline to output translated natural text streams at sub-200ms bounds\nfrom mobile video streams.\nImplement an expressive text-to-speech feedback loop enabling immediate bi-directional\ncommunication channels inside the app.\n3. Methodology & System Architecture\nThe system adheres to a structured, modular pipeline layout designed using a decoupled Client-Server\nmodel. This ensures that heavy backend "
+    },
+    {
+        "source_file": "fyp_proposal_3.pdf",
+        "page": 3,
+        "text": "model inferencing jobs do not impair the frontend interface\napplication execution parameters. \nCore Modules:\nAuthentication & Profile Integration Module: Handles user record enrollment and data secure\ncaching sequences smoothly.\nCore Execution and Inference Pipeline: Manages real-time data ingestion, transformation\noperations, and algorithmic processing nodes.\nAnalytics & Reporting Layout Engine: Aggregates calculation products, compiling structured\nsystem reports safely.\n[System Architecture De"
+    },
+    {
+        "source_file": "fyp_proposal_3.pdf",
+        "page": 3,
+        "text": "sign: React Native Client Interface \u2190\u2192 Secure Gateway APIs \u2190\u2192 Python/\nNode Compute Processing Engines \u2190\u2192 Scalable Vector/Relational Databases] \n\u2022 \n\u2022 \n\u2022 \n1. \n2. \n3. \n3"
+    },
+    {
+        "source_file": "fyp_proposal_3.pdf",
+        "page": 4,
+        "text": "4. Proposed Time Schedule\nPhase Activity Description Duration (2025-2026)\nPhase 1 Literature Survey & Component Finalization December\nPhase 2 Architecture Modeling & Engineering Checks January - February\nPhase 3 Core Engine Development & Coding Cycle March - April\nPhase 4 System Verification Testing & Report Synthesis May - June\nVisual Timeline (Gantt Chart Representation)\nActivity Dec Jan Feb Mar Apr May\nLiterature Gathering \u2588\u2588\nScheme Design Modeling \u2588\u2588 \u2588\u2588\nSystem Core Coding \u2588\u2588 \u2588\u2588\nVerification "
+    },
+    {
+        "source_file": "fyp_proposal_3.pdf",
+        "page": 4,
+        "text": "& Writing \u2588\u2588\n5. Budget Description & Technical Stack\nThe project leverages open-source libraries and public cloud deployment tiers, achieving maximum\nsoftware efficiency with minimal capital expenditures. All computation and model runs are hosted on\nstandard developer hardware platforms already in position. \nProposed  Technical  Core  Stack: React  Native  Frontend,  Python  Fast-API,  Mediapipe,  PyTorch\nTransformer Blocks, Google TTS, WebSocket Engine.\n6. Undertaking & Project Declarations\nWe "
+    },
+    {
+        "source_file": "fyp_proposal_3.pdf",
+        "page": 4,
+        "text": "hereby declare that this technical development proposal is our genuine work executed under supervision\nat IQRA National University. No portion of this engineering research layout has been submitted previously for\nacademic credit at any alternative educational board. \nStudent 1 Signature Student 2 Signature\n4"
+    },
+    {
+        "source_file": "fyp_proposal_3.pdf",
+        "page": 5,
+        "text": "7. Institutional Review Panel Logs\nSupervisor Evaluation Section:\nSupervisor Signature Date: ____/____/______\nFYP Department Coordinator Workspace:\nCoordinator SignatureStatus: APPROVED / HOLD\n5"
+    },
+    {
+        "source_file": "fyp_proposal_5.pdf",
+        "page": 1,
+        "text": "FINAL YEAR PROJECT PROPOSAL\nPREDICTIVE FINANCIAL FRAUD DETECTION\nFRAMEWORK USING GRAPH NEURAL NETWORKS\nINU\nSubmitted By:\nHaris Mehmood (20811)\nAsma Khan (20819)\nSession 2022-2026\nSupervised By:\nDr. Mubashir Zainoor\nA project proposal submitted to The IQRA National University, Peshawar in partial fulfillment of the requirements for\nthe degree of \nBACHELOR OF SCIENCE (BS) IN COMPUTER SCIENCE\nSCHOOL OF COMPUTER SCIENCE\nIQRA NATIONAL UNIVERSITY, PESHAWAR-PAKISTAN\nDecember, 2025\n1"
+    },
+    {
+        "source_file": "fyp_proposal_5.pdf",
+        "page": 2,
+        "text": "Table of Contents\n1. Introduction & Problem Statement 1\n2. Objectives of Project 1\n3. Methodology & System Architecture 2\n4. Proposed Time Schedule (Gantt Chart) 3\n5. Budget Description & Technical Stack 3\n6. Undertaking & Signatures 4\nList of Acronyms\nAcronym Description\nINU IQRA National University\nAI Artificial Intelligence\nNLP Natural Language Processing\nLLM Large Language Model\nAPI Application Programming Interface\nUI / UX User Interface / User Experience\nBLE / IoT Bluetooth Low Energy / In"
+    },
+    {
+        "source_file": "fyp_proposal_5.pdf",
+        "page": 2,
+        "text": "ternet of Things\n1. Introduction & Problem Statement\nThe project titled \"Predictive Financial Fraud Detection Framework Using Graph Neural Networks\"\naddresses  critical  architectural  paradigms  within  the  modern  computer  science  landscape.  As\ninformation engineering systems shift toward distributed, agile environments, specialized automated\nmonitoring  and  optimization  models  become  absolutely  paramount  to  unlock  next-generation\nperformance. \nProblem Statement: Fintech operators "
+    },
+    {
+        "source_file": "fyp_proposal_5.pdf",
+        "page": 2,
+        "text": "lose vast sums annually to sophisticated layered transaction\nevasion routines. Traditional rules-based checks and standard isolated tabular machine learning passes\nfail to capture complex multi-party laundering loops and complex relational structures spanning nested\nweb entities. Without an automated, reliable system structure to streamline these processes, operational\n2"
+    },
+    {
+        "source_file": "fyp_proposal_5.pdf",
+        "page": 3,
+        "text": "risks  escalate  dramatically.  This  system  solves  this  missing  gap  by  developing  an  optimized\ncomputational pipeline that acts as a robust mechanism for resolving these complex challenges. \n2. Objectives of Project\nThe primary structural milestones mapped for this software development cycle are:\nConstruct an optimized transaction graph model database effectively structuring millions of dynamic\ntransactional vertex links.\nDeploy deep Graph Convolutional Networks (GCN) designed to pinpoi"
+    },
+    {
+        "source_file": "fyp_proposal_5.pdf",
+        "page": 3,
+        "text": "nt anomalous loop connectivity\nlayouts and illicit structures.\nDeliver an active alert console visualizing high-risk fraudulent paths to empower institutional\ncompliance specialists.\n3. Methodology & System Architecture\nThe system adheres to a structured, modular pipeline layout designed using a decoupled Client-Server\nmodel. This ensures that heavy backend model inferencing jobs do not impair the frontend interface\napplication execution parameters. \nCore Modules:\nAuthentication & Profile Integr"
+    },
+    {
+        "source_file": "fyp_proposal_5.pdf",
+        "page": 3,
+        "text": "ation Module: Handles user record enrollment and data secure\ncaching sequences smoothly.\nCore Execution and Inference Pipeline: Manages real-time data ingestion, transformation\noperations, and algorithmic processing nodes.\nAnalytics & Reporting Layout Engine: Aggregates calculation products, compiling structured\nsystem reports safely.\n[System Architecture Design: React Native Client Interface \u2190\u2192 Secure Gateway APIs \u2190\u2192 Python/\nNode Compute Processing Engines \u2190\u2192 Scalable Vector/Relational Database"
+    },
+    {
+        "source_file": "fyp_proposal_5.pdf",
+        "page": 3,
+        "text": "s] \n\u2022 \n\u2022 \n\u2022 \n1. \n2. \n3. \n3"
+    },
+    {
+        "source_file": "fyp_proposal_5.pdf",
+        "page": 4,
+        "text": "4. Proposed Time Schedule\nPhase Activity Description Duration (2025-2026)\nPhase 1 Literature Survey & Component Finalization December\nPhase 2 Architecture Modeling & Engineering Checks January - February\nPhase 3 Core Engine Development & Coding Cycle March - April\nPhase 4 System Verification Testing & Report Synthesis May - June\nVisual Timeline (Gantt Chart Representation)\nActivity Dec Jan Feb Mar Apr May\nLiterature Gathering \u2588\u2588\nScheme Design Modeling \u2588\u2588 \u2588\u2588\nSystem Core Coding \u2588\u2588 \u2588\u2588\nVerification "
+    },
+    {
+        "source_file": "fyp_proposal_5.pdf",
+        "page": 4,
+        "text": "& Writing \u2588\u2588\n5. Budget Description & Technical Stack\nThe project leverages open-source libraries and public cloud deployment tiers, achieving maximum\nsoftware efficiency with minimal capital expenditures. All computation and model runs are hosted on\nstandard developer hardware platforms already in position. \nProposed Technical Core Stack: React Native Management, Python Flask Backend, Neo4j Graph DB,\nDeep Graph Library (DGL), PyTorch, Docker.\n6. Undertaking & Project Declarations\nWe hereby decla"
+    },
+    {
+        "source_file": "fyp_proposal_5.pdf",
+        "page": 4,
+        "text": "re that this technical development proposal is our genuine work executed under supervision\nat IQRA National University. No portion of this engineering research layout has been submitted previously for\nacademic credit at any alternative educational board. \nStudent 1 Signature Student 2 Signature\n4"
+    },
+    {
+        "source_file": "fyp_proposal_5.pdf",
+        "page": 5,
+        "text": "7. Institutional Review Panel Logs\nSupervisor Evaluation Section:\nSupervisor Signature Date: ____/____/______\nFYP Department Coordinator Workspace:\nCoordinator SignatureStatus: APPROVED / HOLD\n5"
+    },
+    {
+        "source_file": "fyp_proposal_6.pdf",
+        "page": 1,
+        "text": "FINAL YEAR PROJECT PROPOSAL\nAUTOMATED CODE VULNERABILITY ASSESSMENT\nTOOL USING LARGE LANGUAGE MODELS\nINU\nSubmitted By:\nJawad Ahmed (21990)\nSami Ullah (21994)\nSession 2022-2026\nSupervised By:\nEngr. Mubashir Zainoor\nA project proposal submitted to The IQRA National University, Peshawar in partial fulfillment of the requirements for\nthe degree of \nBACHELOR OF SCIENCE (BS) IN COMPUTER SCIENCE\nSCHOOL OF COMPUTER SCIENCE\nIQRA NATIONAL UNIVERSITY, PESHAWAR-PAKISTAN\nDecember, 2025\n1"
+    },
+    {
+        "source_file": "fyp_proposal_6.pdf",
+        "page": 2,
+        "text": "Table of Contents\n1. Introduction & Problem Statement 1\n2. Objectives of Project 1\n3. Methodology & System Architecture 2\n4. Proposed Time Schedule (Gantt Chart) 3\n5. Budget Description & Technical Stack 3\n6. Undertaking & Signatures 4\nList of Acronyms\nAcronym Description\nINU IQRA National University\nAI Artificial Intelligence\nNLP Natural Language Processing\nLLM Large Language Model\nAPI Application Programming Interface\nUI / UX User Interface / User Experience\nBLE / IoT Bluetooth Low Energy / In"
+    },
+    {
+        "source_file": "fyp_proposal_6.pdf",
+        "page": 2,
+        "text": "ternet of Things\n1. Introduction & Problem Statement\nThe project titled \"Automated Code Vulnerability Assessment Tool Using Large Language Models\"\naddresses  critical  architectural  paradigms  within  the  modern  computer  science  landscape.  As\ninformation engineering systems shift toward distributed, agile environments, specialized automated\nmonitoring  and  optimization  models  become  absolutely  paramount  to  unlock  next-generation\nperformance. \nProblem Statement: Fast software develo"
+    },
+    {
+        "source_file": "fyp_proposal_6.pdf",
+        "page": 2,
+        "text": "pment deployment cycles often overlook fundamental security\ncheck protocols, pushing vulnerable code structures to live production. Traditional static code evaluation\nsetups (SAST) return massive volumes of distracting false positives and fail to understand structural\nlogic flows across interconnected dependencies. Without an automated, reliable system structure to\n2"
+    },
+    {
+        "source_file": "fyp_proposal_6.pdf",
+        "page": 3,
+        "text": "streamline these processes, operational risks escalate dramatically. This system solves this missing gap\nby developing an optimized computational pipeline that acts as a robust mechanism for resolving these\ncomplex challenges. \n2. Objectives of Project\nThe primary structural milestones mapped for this software development cycle are:\nConstruct an automated Abstract Syntax Tree (AST) parsing infrastructure mapping codebase\nrepository layouts cleanly.\nFine-tune an offline, instruction-tuned LLM opt"
+    },
+    {
+        "source_file": "fyp_proposal_6.pdf",
+        "page": 3,
+        "text": "imized specifically to detect edge-case logic and\nstructural memory leak threats.\nIncorporate automated secure patch generation mechanisms detailing refactoring solutions natively\nwithin development pipelines.\n3. Methodology & System Architecture\nThe system adheres to a structured, modular pipeline layout designed using a decoupled Client-Server\nmodel. This ensures that heavy backend model inferencing jobs do not impair the frontend interface\napplication execution parameters. \nCore Modules:\nAuth"
+    },
+    {
+        "source_file": "fyp_proposal_6.pdf",
+        "page": 3,
+        "text": "entication & Profile Integration Module: Handles user record enrollment and data secure\ncaching sequences smoothly.\nCore Execution and Inference Pipeline: Manages real-time data ingestion, transformation\noperations, and algorithmic processing nodes.\nAnalytics & Reporting Layout Engine: Aggregates calculation products, compiling structured\nsystem reports safely.\n[System Architecture Design: React Native Client Interface \u2190\u2192 Secure Gateway APIs \u2190\u2192 Python/\nNode Compute Processing Engines \u2190\u2192 Scalable"
+    },
+    {
+        "source_file": "fyp_proposal_6.pdf",
+        "page": 3,
+        "text": " Vector/Relational Databases] \n\u2022 \n\u2022 \n\u2022 \n1. \n2. \n3. \n3"
+    },
+    {
+        "source_file": "fyp_proposal_6.pdf",
+        "page": 4,
+        "text": "4. Proposed Time Schedule\nPhase Activity Description Duration (2025-2026)\nPhase 1 Literature Survey & Component Finalization December\nPhase 2 Architecture Modeling & Engineering Checks January - February\nPhase 3 Core Engine Development & Coding Cycle March - April\nPhase 4 System Verification Testing & Report Synthesis May - June\nVisual Timeline (Gantt Chart Representation)\nActivity Dec Jan Feb Mar Apr May\nLiterature Gathering \u2588\u2588\nScheme Design Modeling \u2588\u2588 \u2588\u2588\nSystem Core Coding \u2588\u2588 \u2588\u2588\nVerification "
+    },
+    {
+        "source_file": "fyp_proposal_6.pdf",
+        "page": 4,
+        "text": "& Writing \u2588\u2588\n5. Budget Description & Technical Stack\nThe project leverages open-source libraries and public cloud deployment tiers, achieving maximum\nsoftware efficiency with minimal capital expenditures. All computation and model runs are hosted on\nstandard developer hardware platforms already in position. \nProposed Technical Core Stack: React Native Dev Panel, Node.js Core, HuggingFace Transformers,\nTree-Sitter Parser, LangChain, Docker Sandboxing.\n6. Undertaking & Project Declarations\nWe here"
+    },
+    {
+        "source_file": "fyp_proposal_6.pdf",
+        "page": 4,
+        "text": "by declare that this technical development proposal is our genuine work executed under supervision\nat IQRA National University. No portion of this engineering research layout has been submitted previously for\nacademic credit at any alternative educational board. \nStudent 1 Signature Student 2 Signature\n4"
+    },
+    {
+        "source_file": "fyp_proposal_6.pdf",
+        "page": 5,
+        "text": "7. Institutional Review Panel Logs\nSupervisor Evaluation Section:\nSupervisor Signature Date: ____/____/______\nFYP Department Coordinator Workspace:\nCoordinator SignatureStatus: APPROVED / HOLD\n5"
+    },
+    {
+        "source_file": "fyp_proposal_7.pdf",
+        "page": 1,
+        "text": "FINAL YEAR PROJECT PROPOSAL\nIOT-ENABLED SMART GRID OPTIMIZATION AND\nFAULT ISOLATION ARCHITECTURE\nINU\nSubmitted By:\nKashif Raza (20201)\nNoman Lodhi (20209)\nSession 2022-2026\nSupervised By:\nDr. Tariq Mahmood\nA project proposal submitted to The IQRA National University, Peshawar in partial fulfillment of the requirements for\nthe degree of \nBACHELOR OF SCIENCE (BS) IN COMPUTER SCIENCE\nSCHOOL OF COMPUTER SCIENCE\nIQRA NATIONAL UNIVERSITY, PESHAWAR-PAKISTAN\nDecember, 2025\n1"
+    },
+    {
+        "source_file": "fyp_proposal_7.pdf",
+        "page": 2,
+        "text": "Table of Contents\n1. Introduction & Problem Statement 1\n2. Objectives of Project 1\n3. Methodology & System Architecture 2\n4. Proposed Time Schedule (Gantt Chart) 3\n5. Budget Description & Technical Stack 3\n6. Undertaking & Signatures 4\nList of Acronyms\nAcronym Description\nINU IQRA National University\nAI Artificial Intelligence\nNLP Natural Language Processing\nLLM Large Language Model\nAPI Application Programming Interface\nUI / UX User Interface / User Experience\nBLE / IoT Bluetooth Low Energy / In"
+    },
+    {
+        "source_file": "fyp_proposal_7.pdf",
+        "page": 2,
+        "text": "ternet of Things\n1. Introduction & Problem Statement\nThe project titled \"IoT-Enabled Smart Grid Optimization and Fault Isolation Architecture\" addresses\ncritical  architectural  paradigms  within  the  modern  computer  science  landscape.  As  information\nengineering systems shift toward distributed, agile environments, specialized automated monitoring and\noptimization models become absolutely paramount to unlock next-generation performance. \nProblem  Statement: Electrical  transmission  networ"
+    },
+    {
+        "source_file": "fyp_proposal_7.pdf",
+        "page": 2,
+        "text": "ks  face  massive  stability  issues  due  to  sudden\nvolatile load additions and unexpected grid infrastructure failures. Manual inspection responses suffer\nfrom extended down-times, causing cascading regional blackouts and high fiscal operational overhead\ncharges. Without an automated, reliable system structure to streamline these processes, operational\n2"
+    },
+    {
+        "source_file": "fyp_proposal_7.pdf",
+        "page": 3,
+        "text": "risks  escalate  dramatically.  This  system  solves  this  missing  gap  by  developing  an  optimized\ncomputational pipeline that acts as a robust mechanism for resolving these complex challenges. \n2. Objectives of Project\nThe primary structural milestones mapped for this software development cycle are:\nDevelop a simulated telemetry sensor node mesh topology streaming high-fidelity grid data over light\ncommunication standards.\nImplement an LSTM predictive network to preemptively flag localized"
+    },
+    {
+        "source_file": "fyp_proposal_7.pdf",
+        "page": 3,
+        "text": " overloading nodes based on\nhistoric load variations.\nBuild an automated digital relay trip isolation routine to instantly safely redirect load factors away from\nfaulty grid branches.\n3. Methodology & System Architecture\nThe system adheres to a structured, modular pipeline layout designed using a decoupled Client-Server\nmodel. This ensures that heavy backend model inferencing jobs do not impair the frontend interface\napplication execution parameters. \nCore Modules:\nAuthentication & Profile Integ"
+    },
+    {
+        "source_file": "fyp_proposal_7.pdf",
+        "page": 3,
+        "text": "ration Module: Handles user record enrollment and data secure\ncaching sequences smoothly.\nCore Execution and Inference Pipeline: Manages real-time data ingestion, transformation\noperations, and algorithmic processing nodes.\nAnalytics & Reporting Layout Engine: Aggregates calculation products, compiling structured\nsystem reports safely.\n[System Architecture Design: React Native Client Interface \u2190\u2192 Secure Gateway APIs \u2190\u2192 Python/\nNode Compute Processing Engines \u2190\u2192 Scalable Vector/Relational Databas"
+    },
+    {
+        "source_file": "fyp_proposal_7.pdf",
+        "page": 3,
+        "text": "es] \n\u2022 \n\u2022 \n\u2022 \n1. \n2. \n3. \n3"
+    },
+    {
+        "source_file": "fyp_proposal_7.pdf",
+        "page": 4,
+        "text": "4. Proposed Time Schedule\nPhase Activity Description Duration (2025-2026)\nPhase 1 Literature Survey & Component Finalization December\nPhase 2 Architecture Modeling & Engineering Checks January - February\nPhase 3 Core Engine Development & Coding Cycle March - April\nPhase 4 System Verification Testing & Report Synthesis May - June\nVisual Timeline (Gantt Chart Representation)\nActivity Dec Jan Feb Mar Apr May\nLiterature Gathering \u2588\u2588\nScheme Design Modeling \u2588\u2588 \u2588\u2588\nSystem Core Coding \u2588\u2588 \u2588\u2588\nVerification "
+    },
+    {
+        "source_file": "fyp_proposal_7.pdf",
+        "page": 4,
+        "text": "& Writing \u2588\u2588\n5. Budget Description & Technical Stack\nThe project leverages open-source libraries and public cloud deployment tiers, achieving maximum\nsoftware efficiency with minimal capital expenditures. All computation and model runs are hosted on\nstandard developer hardware platforms already in position. \nProposed Technical Core Stack: React Native Mobile Client, Python FastAPI, InfluxDB Time-Series,\nTensorFlow Core, MQTT Brokers, Node-RED Simulation.\n6. Undertaking & Project Declarations\nWe "
+    },
+    {
+        "source_file": "fyp_proposal_7.pdf",
+        "page": 4,
+        "text": "hereby declare that this technical development proposal is our genuine work executed under supervision\nat IQRA National University. No portion of this engineering research layout has been submitted previously for\nacademic credit at any alternative educational board. \nStudent 1 Signature Student 2 Signature\n4"
+    },
+    {
+        "source_file": "fyp_proposal_7.pdf",
+        "page": 5,
+        "text": "7. Institutional Review Panel Logs\nSupervisor Evaluation Section:\nSupervisor Signature Date: ____/____/______\nFYP Department Coordinator Workspace:\nCoordinator SignatureStatus: APPROVED / HOLD\n5"
+    },
+    {
+        "source_file": "fyp_proposal_8.pdf",
+        "page": 1,
+        "text": "FINAL YEAR PROJECT PROPOSAL\nMENTAL HEALTH COMPANION CHATBOT USING\nEMOTION-AWARE CONTEXT TRANSFORMERS\nINU\nSubmitted By:\nLaiba Noor (21400)\nAyesha Khan (21415)\nSession 2022-2026\nSupervised By:\nEngr. Sana Fatima\nA project proposal submitted to The IQRA National University, Peshawar in partial fulfillment of the requirements for\nthe degree of \nBACHELOR OF SCIENCE (BS) IN COMPUTER SCIENCE\nSCHOOL OF COMPUTER SCIENCE\nIQRA NATIONAL UNIVERSITY, PESHAWAR-PAKISTAN\nDecember, 2025\n1"
+    },
+    {
+        "source_file": "fyp_proposal_8.pdf",
+        "page": 2,
+        "text": "Table of Contents\n1. Introduction & Problem Statement 1\n2. Objectives of Project 1\n3. Methodology & System Architecture 2\n4. Proposed Time Schedule (Gantt Chart) 3\n5. Budget Description & Technical Stack 3\n6. Undertaking & Signatures 4\nList of Acronyms\nAcronym Description\nINU IQRA National University\nAI Artificial Intelligence\nNLP Natural Language Processing\nLLM Large Language Model\nAPI Application Programming Interface\nUI / UX User Interface / User Experience\nBLE / IoT Bluetooth Low Energy / In"
+    },
+    {
+        "source_file": "fyp_proposal_8.pdf",
+        "page": 2,
+        "text": "ternet of Things\n1. Introduction & Problem Statement\nThe project titled \"Mental Health Companion Chatbot Using Emotion-Aware Context Transformers\"\naddresses  critical  architectural  paradigms  within  the  modern  computer  science  landscape.  As\ninformation engineering systems shift toward distributed, agile environments, specialized automated\nmonitoring  and  optimization  models  become  absolutely  paramount  to  unlock  next-generation\nperformance. \nProblem  Statement: Accessing  regular "
+    },
+    {
+        "source_file": "fyp_proposal_8.pdf",
+        "page": 2,
+        "text": " qualified  psychological  support  remains  restricted  by  high\nclinical consulting fees and pervasive social stigmas. Existing automated bot scripts rely on shallow\npredefined  keyword  trees  that  deliver  highly  detached,  unsympathetic  answers,  failing  to  notice\nescalations in patient distress metrics. Without an automated, reliable system structure to streamline\n2"
+    },
+    {
+        "source_file": "fyp_proposal_8.pdf",
+        "page": 3,
+        "text": "these  processes,  operational  risks  escalate  dramatically.  This  system  solves  this  missing  gap  by\ndeveloping an optimized computational pipeline that acts as a robust mechanism for resolving these\ncomplex challenges. \n2. Objectives of Project\nThe primary structural milestones mapped for this software development cycle are:\nDevelop a real-time linguistic sentiment processing framework calculating granular multidimensional\nhuman empathy scales.\nDesign a conversational Transformer state "
+    },
+    {
+        "source_file": "fyp_proposal_8.pdf",
+        "page": 3,
+        "text": "pipeline maintaining robust contextual session memories\nover extended message history.\nIntegrate automated therapeutic intervention triggers providing targeted grounding exercises when\ncritical risk spikes occur.\n3. Methodology & System Architecture\nThe system adheres to a structured, modular pipeline layout designed using a decoupled Client-Server\nmodel. This ensures that heavy backend model inferencing jobs do not impair the frontend interface\napplication execution parameters. \nCore Modules:\nA"
+    },
+    {
+        "source_file": "fyp_proposal_8.pdf",
+        "page": 3,
+        "text": "uthentication & Profile Integration Module: Handles user record enrollment and data secure\ncaching sequences smoothly.\nCore Execution and Inference Pipeline: Manages real-time data ingestion, transformation\noperations, and algorithmic processing nodes.\nAnalytics & Reporting Layout Engine: Aggregates calculation products, compiling structured\nsystem reports safely.\n[System Architecture Design: React Native Client Interface \u2190\u2192 Secure Gateway APIs \u2190\u2192 Python/\nNode Compute Processing Engines \u2190\u2192 Scala"
+    },
+    {
+        "source_file": "fyp_proposal_8.pdf",
+        "page": 3,
+        "text": "ble Vector/Relational Databases] \n\u2022 \n\u2022 \n\u2022 \n1. \n2. \n3. \n3"
+    },
+    {
+        "source_file": "fyp_proposal_8.pdf",
+        "page": 4,
+        "text": "4. Proposed Time Schedule\nPhase Activity Description Duration (2025-2026)\nPhase 1 Literature Survey & Component Finalization December\nPhase 2 Architecture Modeling & Engineering Checks January - February\nPhase 3 Core Engine Development & Coding Cycle March - April\nPhase 4 System Verification Testing & Report Synthesis May - June\nVisual Timeline (Gantt Chart Representation)\nActivity Dec Jan Feb Mar Apr May\nLiterature Gathering \u2588\u2588\nScheme Design Modeling \u2588\u2588 \u2588\u2588\nSystem Core Coding \u2588\u2588 \u2588\u2588\nVerification "
+    },
+    {
+        "source_file": "fyp_proposal_8.pdf",
+        "page": 4,
+        "text": "& Writing \u2588\u2588\n5. Budget Description & Technical Stack\nThe project leverages open-source libraries and public cloud deployment tiers, achieving maximum\nsoftware efficiency with minimal capital expenditures. All computation and model runs are hosted on\nstandard developer hardware platforms already in position. \nProposed Technical Core Stack: React Native Mobile, Python FastAPI Core, HuggingFace RoBERTa,\nLangChain Memory, Redis Cache, PostgreSQL Secure.\n6. Undertaking & Project Declarations\nWe hereb"
+    },
+    {
+        "source_file": "fyp_proposal_8.pdf",
+        "page": 4,
+        "text": "y declare that this technical development proposal is our genuine work executed under supervision\nat IQRA National University. No portion of this engineering research layout has been submitted previously for\nacademic credit at any alternative educational board. \nStudent 1 Signature Student 2 Signature\n4"
+    },
+    {
+        "source_file": "fyp_proposal_8.pdf",
+        "page": 5,
+        "text": "7. Institutional Review Panel Logs\nSupervisor Evaluation Section:\nSupervisor Signature Date: ____/____/______\nFYP Department Coordinator Workspace:\nCoordinator SignatureStatus: APPROVED / HOLD\n5"
+    },
+    {
+        "source_file": "fyp_proposal_9.pdf",
+        "page": 1,
+        "text": "FINAL YEAR PROJECT PROPOSAL\nAI-POWERED E-COMMERCE RECOMMENDATION\nENGINE USING SESSION-BASED GRAPH\nNETWORKS\nINU\nSubmitted By:\nOmer Farooq (20551)\nWaleed Malik (20559)\nSession 2022-2026\nSupervised By:\nDr. Amjad Waheed\nA project proposal submitted to The IQRA National University, Peshawar in partial fulfillment of the requirements for\nthe degree of \nBACHELOR OF SCIENCE (BS) IN COMPUTER SCIENCE\nSCHOOL OF COMPUTER SCIENCE\nIQRA NATIONAL UNIVERSITY, PESHAWAR-PAKISTAN\nDecember, 2025\n1"
+    },
+    {
+        "source_file": "fyp_proposal_9.pdf",
+        "page": 2,
+        "text": "Table of Contents\n1. Introduction & Problem Statement 1\n2. Objectives of Project 1\n3. Methodology & System Architecture 2\n4. Proposed Time Schedule (Gantt Chart) 3\n5. Budget Description & Technical Stack 3\n6. Undertaking & Signatures 4\nList of Acronyms\nAcronym Description\nINU IQRA National University\nAI Artificial Intelligence\nNLP Natural Language Processing\nLLM Large Language Model\nAPI Application Programming Interface\nUI / UX User Interface / User Experience\nBLE / IoT Bluetooth Low Energy / In"
+    },
+    {
+        "source_file": "fyp_proposal_9.pdf",
+        "page": 2,
+        "text": "ternet of Things\n1. Introduction & Problem Statement\nThe project titled \"AI-Powered E-Commerce Recommendation Engine Using Session-Based Graph\nNetworks\" addresses critical architectural paradigms within the modern computer science landscape.\nAs information engineering systems shift toward distributed, agile environments, specialized automated\nmonitoring  and  optimization  models  become  absolutely  paramount  to  unlock  next-generation\nperformance. \nProblem  Statement: Standard  e-commerce  r"
+    },
+    {
+        "source_file": "fyp_proposal_9.pdf",
+        "page": 2,
+        "text": "ecommendation  utilities  are  built  upon  outdated\ncollaborative filtering patterns that break down when processing new guest users who lack historical\npurchase tracking profiles. Platforms fail to exploit fast-moving, real-time context changes during short\nuser browsing sessions. Without an automated, reliable system structure to streamline these processes,\n2"
+    },
+    {
+        "source_file": "fyp_proposal_9.pdf",
+        "page": 3,
+        "text": "operational risks escalate dramatically. This system solves this missing gap by developing an optimized\ncomputational pipeline that acts as a robust mechanism for resolving these complex challenges. \n2. Objectives of Project\nThe primary structural milestones mapped for this software development cycle are:\nDesign an active session graph parsing network tracking anonymous user action sequences and item\ninteraction paths.\nTrain a highly responsive Session-based Graph Neural Network (SR-GNN) updatin"
+    },
+    {
+        "source_file": "fyp_proposal_9.pdf",
+        "page": 3,
+        "text": "g product\nrecommendations at every user interaction step.\nIncorporate scalable, sub-10ms vector similarity searches matching high-density item embeddings\ndynamically.\n3. Methodology & System Architecture\nThe system adheres to a structured, modular pipeline layout designed using a decoupled Client-Server\nmodel. This ensures that heavy backend model inferencing jobs do not impair the frontend interface\napplication execution parameters. \nCore Modules:\nAuthentication & Profile Integration Module: Ha"
+    },
+    {
+        "source_file": "fyp_proposal_9.pdf",
+        "page": 3,
+        "text": "ndles user record enrollment and data secure\ncaching sequences smoothly.\nCore Execution and Inference Pipeline: Manages real-time data ingestion, transformation\noperations, and algorithmic processing nodes.\nAnalytics & Reporting Layout Engine: Aggregates calculation products, compiling structured\nsystem reports safely.\n[System Architecture Design: React Native Client Interface \u2190\u2192 Secure Gateway APIs \u2190\u2192 Python/\nNode Compute Processing Engines \u2190\u2192 Scalable Vector/Relational Databases] \n\u2022 \n\u2022 \n\u2022 \n1. "
+    },
+    {
+        "source_file": "fyp_proposal_9.pdf",
+        "page": 4,
+        "text": "4. Proposed Time Schedule\nPhase Activity Description Duration (2025-2026)\nPhase 1 Literature Survey & Component Finalization December\nPhase 2 Architecture Modeling & Engineering Checks January - February\nPhase 3 Core Engine Development & Coding Cycle March - April\nPhase 4 System Verification Testing & Report Synthesis May - June\nVisual Timeline (Gantt Chart Representation)\nActivity Dec Jan Feb Mar Apr May\nLiterature Gathering \u2588\u2588\nScheme Design Modeling \u2588\u2588 \u2588\u2588\nSystem Core Coding \u2588\u2588 \u2588\u2588\nVerification "
+    },
+    {
+        "source_file": "fyp_proposal_9.pdf",
+        "page": 4,
+        "text": "& Writing \u2588\u2588\n5. Budget Description & Technical Stack\nThe project leverages open-source libraries and public cloud deployment tiers, achieving maximum\nsoftware efficiency with minimal capital expenditures. All computation and model runs are hosted on\nstandard developer hardware platforms already in position. \nProposed  Technical  Core  Stack: React  Native  Web/App,  Node.js  Backend  Engine,  PyTorch\nGeometric, FAISS Vector Storage, Redis, MongoDB.\n6. Undertaking & Project Declarations\nWe hereby"
+    },
+    {
+        "source_file": "fyp_proposal_9.pdf",
+        "page": 4,
+        "text": " declare that this technical development proposal is our genuine work executed under supervision\nat IQRA National University. No portion of this engineering research layout has been submitted previously for\nacademic credit at any alternative educational board. \nStudent 1 Signature Student 2 Signature\n4"
+    },
+    {
+        "source_file": "fyp_proposal_9.pdf",
+        "page": 5,
+        "text": "7. Institutional Review Panel Logs\nSupervisor Evaluation Section:\nSupervisor Signature Date: ____/____/______\nFYP Department Coordinator Workspace:\nCoordinator SignatureStatus: APPROVED / HOLD\n5"
+    },
+    {
+        "source_file": "Technical_Report_Writing.pdf",
+        "page": 1,
+        "text": " \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nTitle: Technical Report on Computer System \nCrash During Online Examination \nStudent Name: Essa Manzoor  \nID: 20692 \nInstructor: Numan Gulzar  \nDepartment: BS(CS)7th \n Date: 9th January 2026  "
+    },
+    {
+        "source_file": "Technical_Report_Writing.pdf",
+        "page": 2,
+        "text": "Introduction: \n This report outlines a technical problem that occurred during an online \nexamination where the computer system crashed unexpectedly. The report \ndetails the incident, methodology used to identify the issue, corrective \nactions taken, and recommendations to prevent similar occurrences in the \nfuture. \nBrief Background of the Incident \n During a scheduled online examination for 50 students, the central \ncomputer system responsible for monitoring and recording responses \nsuddenly cr"
+    },
+    {
+        "source_file": "Technical_Report_Writing.pdf",
+        "page": 2,
+        "text": "ashed. The system operated on Windows 10 with a stable \ninternet connection, and the exam platform was [Name of platform]. The \ncrash resulted in temporary loss of access to the exam portal, affecting \nmultiple students. \nProblem Description  \nThe computer system displayed a blue screen of death (BSOD) during the \nexam, causing the examination software to stop functioning. Attempts to \nrestart the application were unsuccessful, and several students reported lost \nprogress. Initial checks ruled o"
+    },
+    {
+        "source_file": "Technical_Report_Writing.pdf",
+        "page": 2,
+        "text": "ut user error and suggested a system-level \nfault. \nMethodology Used for Solving the Issue \n The IT team followed a systematic approach to identify the cause: 1. \nCollected error logs from the system. 2. Checked network connectivity and \nserver status. 3. Verified hardware components for malfunction (RAM, hard \ndisk, etc.). 4. Conducted compatibility checks for the exam software with \nthe operating system. 5. Consulted system manuals and knowledge bases for \nsimilar incidents. \nSolution / Action"
+    },
+    {
+        "source_file": "Technical_Report_Writing.pdf",
+        "page": 2,
+        "text": " Taken  \n1. Restarted the computer and performed a safe mode boot to prevent \nrecurrence of immediate crash. \n2. Updated the operating system and exam software to the latest version. \n3. Replaced faulty RAM modules identified during diagnostics.  \n4. Conducted a full system test to ensure stability.  \n5. Rescheduled the online exam and informed all students of new \ninstructions. "
+    },
+    {
+        "source_file": "Technical_Report_Writing.pdf",
+        "page": 3,
+        "text": "Recommendations \n - Conduct routine maintenance and updates of all examination systems. - \nImplement automated backup of student responses during exams. - Train \nstaff and students on emergency procedures. - Ensure redundancy in \nhardware to prevent a single point of failure. - Monitor system performance \nin real-time during exams. \nConclusion \n The computer system crash during the online examination highlighted \nvulnerabilities in hardware and software management. Through systematic \ntroublesho"
+    },
+    {
+        "source_file": "Technical_Report_Writing.pdf",
+        "page": 3,
+        "text": "oting and corrective actions, the issue was resolved, and the \nexam was successfully completed. Implementing the recommended \npreventive measures will reduce the likelihood of similar incidents in the \nfuture, ensuring a smoother examination process. "
+    },
+    {
+        "source_file": "the_plagerized_twi.pdf",
+        "page": 1,
+        "text": "FINAL YEAR PROJECT RESEARCH PROPOSAL \n \nCLOUD-NATIVE MICROSERVICE SECURITY ORCHESTRATION WITH EBPF-BASED NETWORK \nANOMALY DETECTION \n \nSubmitted By: \nBilal Ahmed (21450) \nKamran Shah (21462) \n \nSession 2022-2026 \n \nSupervised By: \nEngr. Mubashir Zainoor \n \nA project proposal submitted to The IQRA National University, Peshawar in partial fulfillment of \nthe requirements for the degree of \nBACHELOR OF SCIENCE (BS) IN COMPUTER SCIENCE \n \nSCHOOL OF COMPUTER SCIENCE \nIQRA NATIONAL UNIVERSITY , PESHAW"
+    },
+    {
+        "source_file": "the_plagerized_twi.pdf",
+        "page": 1,
+        "text": "AR-PAKISTAN \nJanuary, 2026 \n \n--------------------------------------------------------- \n \n1. Introduction & Problem Statement \n "
+    },
+    {
+        "source_file": "the_plagerized_twi.pdf",
+        "page": 2,
+        "text": "The study titled \"Cloud-Native Microservice Security Orchestration with eBPF-Based Network \nAnomaly Detection\" focuses on critical architectural paradigms inside the contemporary \ncomputer science ecosystem. As information engineering frameworks shift rapidly toward \ndistributed, cloud-agile environments, specialized automated monitoring and optimization \nframeworks become completely paramount to unlock next-generation system performance. \n \nProblem Statement: Modern cloud infrastructure operati"
+    },
+    {
+        "source_file": "the_plagerized_twi.pdf",
+        "page": 2,
+        "text": "ng complex microservice meshes suffer \nfrom severe structural visibility deficits. Malicious actors frequently bypass traditional edge \nfirewalls by moving laterally through internal networks, masking dangerous activities inside \nlegitimate application-layer payload protocols. Without a reliable, automated system \narchitecture to streamline these monitoring processes, operational risks scale drastically. This \nsystem resolves this gap by engineering an optimized computational pipeline that funct"
+    },
+    {
+        "source_file": "the_plagerized_twi.pdf",
+        "page": 2,
+        "text": "ions as a \nrobust mechanism for overcoming these security challenges. \n \n2. Objectives of Project \n \nThe primary structural milestones mapped out for this software creation cycle are: \n\u2022 Create kernel-level eBPF monitoring scripts to trace system socket calls securely without \nintroducing runtime latency overhead. \n\u2022 Set up an isolation profiling module verifying system execution events against baseline \nbehavioral layouts. \n\u2022 Build an automated, low-latency container shutdown system to isolate "
+    },
+    {
+        "source_file": "the_plagerized_twi.pdf",
+        "page": 2,
+        "text": "infected container \nnodes instantly. \n \n3. Methodology & System Architecture \n \nThe software environment adheres to a structured, modular pipeline design developed using a \ndecoupled Client-Server model. This arrangement ensures that heavy backend model \ninferencing operations do not impair the frontend user interface execution parameters. \n \nCore System Modules: "
+    },
+    {
+        "source_file": "the_plagerized_twi.pdf",
+        "page": 3,
+        "text": "1. Authentication & Profile Integration Module: Handles student record enrollment and secure \ndata caching sequences smoothly. \n2. Core Execution and Inference Pipeline: Manages real-time network data ingestion, \ntransformation operations, and algorithmic matching nodes. \n3. Analytics & Reporting Layout Engine: Aggregates evaluation data, compiling structured \nsystem analysis reports safely. \n \n[System Architecture Layout: React Native Client UI \u2192 Secure Gateway APIs \u2192 Python/Node \nProcessing En"
+    },
+    {
+        "source_file": "the_plagerized_twi.pdf",
+        "page": 3,
+        "text": "gines \u2192 Vector and Relational Databases] \n \n4. Proposed Time Schedule \n \n\u2022 Phase 1: Literature Survey & Component Finalization (December) \n\u2022 Phase 2: Architecture Modeling & Engineering Checks (January - February) \n\u2022 Phase 3: Core Engine Development & Coding Cycle (March - April) \n\u2022 Phase 4: System Verification Testing & Report Synthesis (May - June) \n \n5. Budget Description & Technical Stack \n \nThe engineering project leverages open-source development libraries and public cloud hosting \ntiers, "
+    },
+    {
+        "source_file": "the_plagerized_twi.pdf",
+        "page": 3,
+        "text": "achieving high software efficiency with minimal capital expenditure. All background \ncomputation and model evaluation runs are hosted on standard developer computer platforms \nalready in position. \n \nProposed Technical Core Stack: React Native Dashboard, Go Micro-Services, eBPF Kernel \nModules, Prometheus Telemetry, Kubernetes clusters, TimescaleDB. \n \n6. Declarations "
+    },
+    {
+        "source_file": "the_plagerized_twi.pdf",
+        "page": 4,
+        "text": " \nWe hereby declare that this technical development layout is our genuine work executed under \nguidance at IQRA National University. No portion of this engineering research document has \nbeen submitted previously for academic credit at any alternative educational board. "
+    },
+    {
+        "source_file": "the_plagerized_twi_YxM9EDg.pdf",
+        "page": 1,
+        "text": "FINAL YEAR PROJECT RESEARCH PROPOSAL \n \nCLOUD-NATIVE MICROSERVICE SECURITY ORCHESTRATION WITH EBPF-BASED NETWORK \nANOMALY DETECTION \n \nSubmitted By: \nBilal Ahmed (21450) \nKamran Shah (21462) \n \nSession 2022-2026 \n \nSupervised By: \nEngr. Mubashir Zainoor \n \nA project proposal submitted to The IQRA National University, Peshawar in partial fulfillment of \nthe requirements for the degree of \nBACHELOR OF SCIENCE (BS) IN COMPUTER SCIENCE \n \nSCHOOL OF COMPUTER SCIENCE \nIQRA NATIONAL UNIVERSITY , PESHAW"
+    },
+    {
+        "source_file": "the_plagerized_twi_YxM9EDg.pdf",
+        "page": 1,
+        "text": "AR-PAKISTAN \nJanuary, 2026 \n \n--------------------------------------------------------- \n \n1. Introduction & Problem Statement \n "
+    },
+    {
+        "source_file": "the_plagerized_twi_YxM9EDg.pdf",
+        "page": 2,
+        "text": "The study titled \"Cloud-Native Microservice Security Orchestration with eBPF-Based Network \nAnomaly Detection\" focuses on critical architectural paradigms inside the contemporary \ncomputer science ecosystem. As information engineering frameworks shift rapidly toward \ndistributed, cloud-agile environments, specialized automated monitoring and optimization \nframeworks become completely paramount to unlock next-generation system performance. \n \nProblem Statement: Modern cloud infrastructure operati"
+    },
+    {
+        "source_file": "the_plagerized_twi_YxM9EDg.pdf",
+        "page": 2,
+        "text": "ng complex microservice meshes suffer \nfrom severe structural visibility deficits. Malicious actors frequently bypass traditional edge \nfirewalls by moving laterally through internal networks, masking dangerous activities inside \nlegitimate application-layer payload protocols. Without a reliable, automated system \narchitecture to streamline these monitoring processes, operational risks scale drastically. This \nsystem resolves this gap by engineering an optimized computational pipeline that funct"
+    },
+    {
+        "source_file": "the_plagerized_twi_YxM9EDg.pdf",
+        "page": 2,
+        "text": "ions as a \nrobust mechanism for overcoming these security challenges. \n \n2. Objectives of Project \n \nThe primary structural milestones mapped out for this software creation cycle are: \n\u2022 Create kernel-level eBPF monitoring scripts to trace system socket calls securely without \nintroducing runtime latency overhead. \n\u2022 Set up an isolation profiling module verifying system execution events against baseline \nbehavioral layouts. \n\u2022 Build an automated, low-latency container shutdown system to isolate "
+    },
+    {
+        "source_file": "the_plagerized_twi_YxM9EDg.pdf",
+        "page": 2,
+        "text": "infected container \nnodes instantly. \n \n3. Methodology & System Architecture \n \nThe software environment adheres to a structured, modular pipeline design developed using a \ndecoupled Client-Server model. This arrangement ensures that heavy backend model \ninferencing operations do not impair the frontend user interface execution parameters. \n \nCore System Modules: "
+    },
+    {
+        "source_file": "the_plagerized_twi_YxM9EDg.pdf",
+        "page": 3,
+        "text": "1. Authentication & Profile Integration Module: Handles student record enrollment and secure \ndata caching sequences smoothly. \n2. Core Execution and Inference Pipeline: Manages real-time network data ingestion, \ntransformation operations, and algorithmic matching nodes. \n3. Analytics & Reporting Layout Engine: Aggregates evaluation data, compiling structured \nsystem analysis reports safely. \n \n[System Architecture Layout: React Native Client UI \u2192 Secure Gateway APIs \u2192 Python/Node \nProcessing En"
+    },
+    {
+        "source_file": "the_plagerized_twi_YxM9EDg.pdf",
+        "page": 3,
+        "text": "gines \u2192 Vector and Relational Databases] \n \n4. Proposed Time Schedule \n \n\u2022 Phase 1: Literature Survey & Component Finalization (December) \n\u2022 Phase 2: Architecture Modeling & Engineering Checks (January - February) \n\u2022 Phase 3: Core Engine Development & Coding Cycle (March - April) \n\u2022 Phase 4: System Verification Testing & Report Synthesis (May - June) \n \n5. Budget Description & Technical Stack \n \nThe engineering project leverages open-source development libraries and public cloud hosting \ntiers, "
+    },
+    {
+        "source_file": "the_plagerized_twi_YxM9EDg.pdf",
+        "page": 3,
+        "text": "achieving high software efficiency with minimal capital expenditure. All background \ncomputation and model evaluation runs are hosted on standard developer computer platforms \nalready in position. \n \nProposed Technical Core Stack: React Native Dashboard, Go Micro-Services, eBPF Kernel \nModules, Prometheus Telemetry, Kubernetes clusters, TimescaleDB. \n \n6. Declarations "
+    },
+    {
+        "source_file": "the_plagerized_twi_YxM9EDg.pdf",
+        "page": 4,
+        "text": " \nWe hereby declare that this technical development layout is our genuine work executed under \nguidance at IQRA National University. No portion of this engineering research document has \nbeen submitted previously for academic credit at any alternative educational board. "
+    },
+    {
+        "source_file": "the plagerizier",
+        "page": 1,
+        "text": "Bidirectional Internship & Job Matching System Using Rule-Based Recommendation Submitted By EssaManzoor: 20692. Abdul Hafeez: 19976. Session 2021-2025 Supervised BY ____________________________________ Supervisor Name ____________________________________ A project proposal submitted to The IQRA National University, Peshawar in partial fulfillment of the requirements for the degree of BACHELOR OF SCIENCE (BS) IN COMPUTER SCIENCE DEPARTMENT OF COMPUTER SCIENCE IQRA NATIONAL UNIVERSITY, PESHWAR-PAKISTAN April, 2019"
+    },
+    {
+        "source_file": "the plagerizier",
+        "page": 2,
+        "text": "i Table of Contents \uf031\uf029 Introduction || (Page 1) \uf032\uf029 Literature Review || (Page 1) \uf033\uf029 Problem Statement || (Page 1) \uf034\uf029 Objectives of Project || (Page 2) \uf035\uf029 Methodology for Implementation of Project || (Page 2) \uf036\uf029 Project Proposed Time Schedule || (Page 3) \uf037\uf029 Budget Description || (Page 3) \uf038\uf029 References || (Page 4) \uf039\uf029 Undertaking || (Page 4) \uf031\uf030\uf029 Supervisor Comments || (Page 5) \uf031\uf031\uf029 FYP Coordinator Remarks || (Page 6)"
+    },
+    {
+        "source_file": "the plagerizier",
+        "page": 3,
+        "text": "ii LIST OF FIGURES Fig. No. Fig. Description Page No."
+    },
+    {
+        "source_file": "the plagerizier",
+        "page": 4,
+        "text": "iii LIST OF TABLES Table. No. Table. Description Page No."
+    },
+    {
+        "source_file": "the plagerizier",
+        "page": 5,
+        "text": "iv LIST OF ACRONYMS ACRONYMS DESCRIPTION UI User interface UX User Experience API Artificial Programming Interface DSS Decision Support System WWW World Wide Web"
+    },
+    {
+        "source_file": "the plagerizier",
+        "page": 7,
+        "text": "1 Introduction Finding suitable internships and entry-level jobs is a significant challenge for students, while companies struggle to identify candidates that match their requirements. Existing platforms mainly focus on one-way matching, which often leads to inefficiencies. This project proposes a Bidirectional Internship & Job Matching System that provides recommendations to both students and companies using a transparent rule- based approach. The system is implemented as a mobile application using Flutter. Literature Review Various online job portals and internship platforms exist; however, most rely on manual searching or one-sided filtering. Recent studies emphasize decision support systems to improve matching efficiency. This project builds upon these concepts by introducing a two-way recommendation mechanism without relying on complex machine learning models. Problem Statement Current internship and job portals lack intelligent two-way matching mechanisms. Students apply to unsuitable positions, and companies receive a large volume of irrelevant applications, resulting in wasted time and poor matching outcomes. Objectives of Project \uf0b7 To develop a mobile-based internship and job matching system \uf0b7 To provide bidirectional recommendations for students and companies \uf0b7 To design a rule-based matching and scoring mechanism \uf0b7 To create an easy-to-use Flutter-based interface Methodology for Implementation of Project The system uses a rule-based"
+    },
+    {
+        "source_file": "the plagerizier",
+        "page": 7,
+        "text": "for students and companies \uf0b7 To design a rule-based matching and scoring mechanism \uf0b7 To create an easy-to-use Flutter-based interface Methodology for Implementation of Project The system uses a rule-based recommendation approach. Student and company profiles are compared based on predefined criteria such as skills, CGPA, location, and availability. A matching score is calculated and used to generate recommendation lists. Firebase/Supabase is used for backend services, authentication, and data storage."
+    },
+    {
+        "source_file": "the plagerizier",
+        "page": 8,
+        "text": "2 1. Project Proposed Time Schedule Sample is given below. Activity Month Year Month Year Month Year Month Year Month Year Month Year Collection of Literature Study of Literature Analysis of Proposed Scheme Preparation of Schemes / Model Implementation of Schemes/Model Analysis & Simulation Result Formulation Final Write-up & Report Submission 2. Budget Description The project requires minimal budget as it is software-based. Development tools such as Flutter and Firebase are free to use. Testing will be performed using personal computers (PC) and mobile devices available to the students.."
+    },
+    {
+        "source_file": "the plagerizier",
+        "page": 9,
+        "text": "3 3. References Firebase Documentaion,Google,2023 Doc.23, Doc 68. Flutter Documetation,2023-2025. 4. Undertaking . We hereby declare that this project proposal is our original work and has not been submitted previously for any degree. All sources used have been properly acknowledged. Signature of Students: Essa Manzoor ________________________ Abdul Hafeez ________________________"
+    },
+    {
+        "source_file": "the plagerizier",
+        "page": 10,
+        "text": "4 5. Supervisor\u2019s Comments Take recommendation of your supervisor for your project work here. Signature of Supervisor: ________________________ Name of Supervisor : ________________________ Designation of Supervisor: ________________________"
+    },
+    {
+        "source_file": "the plagerizier",
+        "page": 11,
+        "text": "5 6. Final Year Project Coordinator Remarks Do not write anything here. For official use only. Signature of Final Year Project Coordinator ________________________ Designation ________________________"
+    }
+]

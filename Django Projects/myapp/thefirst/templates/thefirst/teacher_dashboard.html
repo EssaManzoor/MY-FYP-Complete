@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Evaluation Dashboard</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8fafc; color: #1e293b; margin: 0; padding: 0; }
+        .navbar { background-color: #1e3a8a; color: white; padding: 15px 30px; font-size: 1.25rem; font-weight: 600; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center; }
+        .logout-btn { background-color: #ef4444; color: white; text-decoration: none; font-size: 0.85rem; font-weight: 600; padding: 8px 16px; border-radius: 6px; box-shadow: 0 2px 4px rgba(239, 68, 68, 0.2); transition: all 0.2s ease-in-out; display: inline-flex; align-items: center; }
+        .logout-btn:hover { background-color: #dc2626; box-shadow: 0 4px 6px rgba(220, 38, 38, 0.3); transform: translateY(-1px); }
+        .container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
+        .card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); margin-bottom: 25px; }
+        h2 { color: #1e3a8a; margin-top: 0; padding-bottom: 12px; border-bottom: 2px solid #eff6ff; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th { background-color: #f1f5f9; color: #475569; text-align: left; padding: 12px; font-weight: 600; border-bottom: 2px solid #e2e8f0; }
+        td { padding: 14px 12px; border-bottom: 1px solid #edf2f7; font-size: 0.95rem; }
+        .badge { display: inline-block; padding: 4px 8px; border-radius: 4px; font-weight: 600; font-size: 0.85rem; }
+        .status-Pending { background-color: #fef3c7; color: #d97706; }
+        .status-Accepted { background-color: #dcfce7; color: #16a34a; }
+        .status-Rejected { background-color: #fee2e2; color: #dc2626; }
+        
+        /* Color Classes */
+        .plag-high { color: #dc2626; font-weight: bold; }
+        .plag-medium { color: #d97706; font-weight: bold; }
+        .plag-low { color: #16a34a; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <span>👨‍🏫 FYP Supervisor Evaluation Panel</span>
+        <a href="{% url 'logout' %}" class="logout-btn">🚪 Log Out</a>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h2>Submitted Final Year Projects</h2>
+            {% if submissions %}
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Student Details</th>
+                            <th>Project Title</th>
+                            <th>Peak Similarity</th>
+                            <th>Status</th>
+                            <th>Decision</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for sub in submissions %}
+                        <tr>
+                            <td><strong>{{ sub.student_name }}</strong></td>
+                            <td>
+                                <span style="font-weight: 500; color: #1e3a8a;">{{ sub.title }}</span><br>
+                                {% if sub.pdf_file %}
+                                    <a href="{{ sub.pdf_file.url }}" target="_blank" style="color: #2563eb; font-size: 0.85rem;">📄 View PDF</a>
+                                {% endif %}
+                            </td>
+                            <td>
+                                {% if sub.similarity_score >= 75 %}
+                                    <span class="plag-high">{{ sub.similarity_score|floatformat:1 }}%</span>
+                                {% elif sub.similarity_score >= 40 %}
+                                    <span class="plag-medium">{{ sub.similarity_score|floatformat:1 }}%</span>
+                                {% else %}
+                                    <span class="plag-low">{{ sub.similarity_score|floatformat:1 }}%</span>
+                                {% endif %}
+                            </td>
+                            <td><span class="badge status-{{ sub.status }}">{{ sub.status }}</span></td>
+                            <td>
+                                <a href="{% url 'project_review' sub.pk %}" style="background-color: #2563eb; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 0.85rem;">Review</a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% else %}
+                <p>No project proposals uploaded.</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

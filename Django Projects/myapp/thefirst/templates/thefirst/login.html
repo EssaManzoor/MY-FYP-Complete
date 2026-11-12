@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>System Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 flex items-center justify-center h-screen">
+
+    <div class="bg-slate-800 p-8 rounded-xl shadow-2xl w-full max-w-md border border-slate-700">
+        <h2 class="text-2xl font-bold text-center text-white mb-6">🔒 Project Portal Login</h2>
+        
+        {% if form.non_field_errors %}
+            {% for error in form.non_field_errors %}
+                <div class="p-3 mb-4 rounded text-sm bg-red-500/20 text-red-400 border border-red-500/30">
+                    {{ error }}
+                </div>
+            {% endfor %}
+        {% endif %}
+
+        {% if messages %}
+            {% for message in messages %}
+                {% if 'error' in message.tags or 'danger' in message.tags %}
+                    <div class="p-3 mb-4 rounded text-sm bg-red-500/20 text-red-400 border border-red-500/30">
+                        {{ message }}
+                    </div>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+
+        <form method="POST" class="space-y-4">
+            {% csrf_token %}
+            
+            <div>
+                <label class="block text-sm font-medium text-slate-300 mb-1">Username</label>
+                <input type="text" name="username" class="w-full bg-slate-700 border border-slate-600 rounded p-2 text-white focus:outline-none focus:border-blue-500" required>
+            </div>
+            
+            <div>
+                <label class="block text-sm font-medium text-slate-300 mb-1">Password</label>
+                <input type="password" name="password" class="w-full bg-slate-700 border border-slate-600 rounded p-2 text-white focus:outline-none focus:border-blue-500" required>
+            </div>
+
+            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 rounded transition-colors mt-6 shadow-md shadow-blue-900/30">
+                Log In
+            </button>
+        </form>
+
+        <div class="mt-6 text-center text-sm text-slate-400">
+            New to the portal? 
+            <a href="{% url 'signup' %}" class="text-blue-500 hover:text-blue-400 font-medium hover:underline transition-colors ml-1">
+                Create an account
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>

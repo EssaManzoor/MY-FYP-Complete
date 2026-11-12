@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Academic Account</title>
+    <style>
+        body {
+            background-color: #0d1424;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #ffffff;
+        }
+        .signup-card {
+            background-color: #1a2333;
+            border: 1px solid #2d3d5a;
+            border-radius: 12px;
+            padding: 30px;
+            width: 400px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+        }
+        .card-header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .error-box {
+            background-color: #4c242b;
+            border: 1px solid #ff4a68;
+            color: #ff9ebb;
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            font-size: 13px;
+            color: #a0aec0;
+            margin-bottom: 5px;
+        }
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            background-color: #0f172a;
+            border: 1px solid #2d3d5a;
+            border-radius: 6px;
+            color: white;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        .form-control:focus {
+            border-color: #2563eb;
+            outline: none;
+        }
+        .btn-register {
+            width: 100%;
+            padding: 12px;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background 0.2s;
+        }
+        .btn-register:hover {
+            background-color: #1d4ed8;
+        }
+        .footer-link {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 14px;
+            color: #a0aec0;
+        }
+        .footer-link a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .footer-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="signup-card">
+    <div class="card-header">📄 Create Academic Account</div>
+
+    {% if messages %}
+        {% for message in messages %}
+            <div class="error-box">
+                {{ message }}
+            </div>
+        {% endfor %}
+    {% endif %}
+
+    <form method="POST" action="{% url 'signup' %}">
+        {% csrf_token %}
+        
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" class="form-control" value="{{ typed_username|default:'' }}" required>
+        </div>
+
+        <div class="form-group">
+            <label for="role">Portal Role</label>
+            <select id="role" name="role" class="form-control" onchange="toggleTeacherKey()">
+                <option value="STUDENT" {% if selected_role == 'STUDENT' %}selected{% endif %}>Student</option>
+                <option value="TEACHER" {% if selected_role == 'TEACHER' %}selected{% endif %}>Teacher</option>
+            </select>
+        </div>
+
+        <div class="form-group" id="teacher-key-group" style="display: none;">
+            <label for="teacher_key">Teacher Secret Key</label>
+            <input type="password" id="teacher_key" name="teacher_key" class="form-control" value="{{ typed_teacher_key|default:'' }}">
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password_confirm">Confirm Password</label>
+            <input type="password" id="password_confirm" name="password_confirm" class="form-control" required>
+        </div>
+
+        <button type="submit" class="btn-register">Register Account</button>
+    </form>
+
+    <div class="footer-link">
+        Already have an account? <a href="{% url 'login' %}">Log In</a>
+    </div>
+</div>
+
+<script>
+    // Simple conditional toggle to display secret authorization key when 'TEACHER' is picked
+    function toggleTeacherKey() {
+        var roleSelect = document.getElementById('role');
+        var keyGroup = document.getElementById('teacher-key-group');
+        if (roleSelect.value === 'TEACHER') {
+            keyGroup.style.display = 'block';
+        } else {
+            keyGroup.style.display = 'none';
+        }
+    }
+    // Initialize toggle state on page render
+    window.onload = toggleTeacherKey;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Plagiarism Check</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.25rem;
+            font-weight: 600;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        /* --- New User Context Bar --- */
+        .user-bar {
+            background-color: #eff6ff;
+            border-bottom: 1px solid #dbeafe;
+            padding: 10px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            font-size: 0.9rem;
+        }
+        .logout-btn {
+            background-color: #ef4444;
+            color: white;
+            text-decoration: none;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        .logout-btn:hover {
+            background-color: #dc2626;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            margin-bottom: 24px;
+        }
+        .upload-box {
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 6px;
+            color: #334155;
+            font-size: 0.95rem;
+        }
+        .text-input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            box-sizing: border-box;
+        }
+        .text-input:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+        }
+        h2 {
+            color: #1e3a8a;
+            margin-top: 0;
+            font-size: 1.3rem;
+            border-bottom: 2px solid #eff6ff;
+            padding-bottom: 12px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .btn-submit {
+            display: block;
+            width: 100%;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            margin-top: 20px;
+            transition: background 0.2s;
+        }
+        .btn-submit:hover {
+            background-color: #1d4ed8;
+        }
+        .file-input {
+            margin: 10px 0;
+        }
+        .grid-layout {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        .chart-card {
+            flex: 1;
+            min-width: 45%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th {
+            background-color: #f1f5f9;
+            color: #475569;
+            text-align: left;
+            padding: 12px;
+            font-weight: 600;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        td {
+            padding: 14px 12px;
+            border-bottom: 1px solid #edf2f7;
+            font-size: 0.95rem;
+            vertical-align: top;
+        }
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.85rem;
+        }
+        .badge-high { background-color: #fee2e2; color: #dc2626; }
+        .badge-med { background-color: #fef3c7; color: #d97706; }
+        .badge-low { background-color: #dcfce7; color: #16a34a; }
+        .snippet {
+            font-style: italic;
+            color: #64748b;
+            background: #f8fafc;
+            padding: 8px;
+            border-left: 3px solid #cbd5e1;
+            border-radius: 4px;
+            margin-top: 5px;
+        }
+        /* --- Dynamic Alerts --- */
+        .alert-box {
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 500;
+        }
+        .alert-error { color: #dc2626; background-color: #fee2e2; border: 1px solid #fca5a5; }
+        .alert-success { color: #16a34a; background-color: #dcfce7; border: 1px solid #86efac; }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">🎯 Document Similarity Assessment Matrix</div>
+
+    <div class="user-bar">
+        <div>
+            👤 Student Session: <strong style="color: #1e3a8a;">{{ request.user.username }}</strong>
+        </div>
+        <a href="{% url 'logout' %}" class="logout-btn">🚪 Log Out</a>
+    </div>
+
+    <div class="container">
+        
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert-box {% if message.tags == 'error' %}alert-error{% else %}alert-success{% endif %}">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+
+        {% if error %}
+            <div class="alert-box alert-error">{{ error }}</div>
+        {% endif %}
+
+        <div class="card upload-box">
+            <h2>Submit Project for AI Plagiarism Check</h2>
+            <form method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                
+                <div class="form-group">
+                    <label for="student_name">Student Name:</label>
+                    <input type="text" name="student_name" id="student_name" value="{{ request.user.username }}" class="text-input" placeholder="e.g., Eesa Manzoor" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="project_title">Project Title:</label>
+                    <input type="text" name="project_title" id="project_title" class="text-input" placeholder="e.g., AI-Based FYP Similarity Detection System" required>
+                </div>
+
+                <div class="form-group" style="margin-top: 20px;">
+                    <label for="uploaded_file">Upload Document (PDF):</label>
+                    <input type="file" name="uploaded_file" id="uploaded_file" class="file-input" accept=".pdf" required>
+                </div>
+
+                <button type="submit" class="btn-submit">Submit and Compare PDF</button>
+            </form>
+        </div>
+
+        {% if results %}
+            <div class="grid-layout">
+                <div class="card chart-card">
+                    <h2>Similarity Distribution Across Pages</h2>
+                    <canvas id="pagesLineChart" height="180"></canvas>
+                </div>
+
+                <div class="card chart-card">
+                    <h2>Top Intersecting Reference Files</h2>
+                    <canvas id="filesBarChart" height="180"></canvas>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Detailed Match Log (Top Findings)</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 12%;">Student Page</th>
+                            <th style="width: 25%;">Matched Reference File</th>
+                            <th style="width: 12%;">Source Page</th>
+                            <th style="width: 15%;">Similarity Match</th>
+                            <th style="width: 36%;">Content Snippet</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for match in results %}
+                        <tr>
+                            <td><strong>Page {{ match.student_page }}</strong></td>
+                            <td>{{ match.matched_file }}</td>
+                            <td>Page {{ match.matched_page }}</td>
+                            <td>
+                                <span class="badge {% if match.similarity > 75 %}badge-high{% elif match.similarity > 40 %}badge-med{% else %}badge-low{% endif %}">
+                                    {{ match.similarity }}% Match
+                                </span>
+                            </td>
+                            <td>
+                                <div class="snippet">"{{ match.text_snippet }}..."</div>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+
+            {{ chart_pages_labels|json_script:"student-pages-labels-json" }}
+            {{ chart_pages_data|json_script:"student-pages-data-json" }}
+            {{ chart_files_labels|json_script:"student-files-labels-json" }}
+            {{ chart_files_data|json_script:"student-files-data-json" }}
+
+            <script>
+                const pagesLabels = JSON.parse(document.getElementById('student-pages-labels-json').textContent);
+                const pagesData = JSON.parse(document.getElementById('student-pages-data-json').textContent);
+                const filesLabels = JSON.parse(document.getElementById('student-files-labels-json').textContent);
+                const filesData = JSON.parse(document.getElementById('student-files-data-json').textContent);
+
+                // 1. Line Chart Configuration
+                const ctxLine = document.getElementById('pagesLineChart').getContext('2d');
+                new Chart(ctxLine, {
+                    type: 'line',
+                    data: {
+                        labels: pagesLabels,
+                        datasets: [{
+                            label: 'Peak Similarity %',
+                            data: pagesData,
+                            borderColor: '#2563eb',
+                            backgroundColor: 'rgba(37, 99, 235, 0.08)',
+                            borderWidth: 2.5,
+                            fill: true,
+                            tension: 0.25
+                        }]
+                    },
+                    options: { responsive: true, scales: { y: { beginAtZero: true, max: 100 } } }
+                });
+
+                // 2. Bar Chart Configuration
+                const ctxBar = document.getElementById('filesBarChart').getContext('2d');
+                new Chart(ctxBar, {
+                    type: 'bar',
+                    data: {
+                        labels: filesLabels,
+                        datasets: [{
+                            label: 'Max Overlap Percentage',
+                            data: filesData,
+                            backgroundColor: '#3b82f6',
+                            hoverBackgroundColor: '#1d4ed8',
+                            borderRadius: 6
+                        }]
+                    },
+                    options: { responsive: true, scales: { y: { beginAtZero: true, max: 100 } } }
+                });
+            </script>
+        {% endif %}
+
+    </div>
+</body>
+</html>
